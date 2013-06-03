@@ -1,0 +1,192 @@
+"pt-BR":
+  main_menu:
+    home: "Início"
+    docs: "Documentação"
+    get_in_touch: "Entre em contato"
+  general:
+    updated_at: "Atualizado em %{date}"
+    index: "Índice"
+  footer:
+    paragraph_1: "Os nomes e logotipos Portal OPME são marcas registradas da CloudMed. Todos os direitos reservados."
+    get_in_touch: "Entre em contato"
+  portalopme:
+    index:
+      title: "Visão geral do serviço Portal OPME"
+      table_of_contents:
+        index: "Índice"
+        how_it_works: "O que é?"
+        features_yield: "Funcionalidades e Finalidades."
+        who_uses: "Quem utiliza? (Quem Pode Utilizar?)"
+      how_it_works:
+        paragraph_1: "O Portal OPME é uma solução para área de saúde no modelo <a href='http://pt.wikipedia.org/wiki/Software_como_serviço' target='blank' class='external'>SaaS</a>. É uma ferramenta que possibilita todo o acompanhamento e gestão das negociações, auditoria técnica e médica, controle de utilização do material cotado/provisionado na cirurgia, sua posterior aprovação para faturamento e possíveis divergências de materiais OPME, em lotes e em regime de leilão reverso, permitindo um maior poder de negociação, que geralmente são de alto custo."
+      features_yield:
+        paragraph_1: "O Portal OPME é a solução da CloudMed que possibilita todo o acompanhamento e gestão das negociações de materiais OPME, auditoria técnica e médica, controle do material provisionado para a cirurgia, sua posterior aprovação para faturamento e possíveis divergências. Indicado para Operadoras de Planos de Saúde e Prestadores."
+        feature_1: "Características"
+        feature_2: "Desenvolvido em Sistema WEB, ou seja, sem necessidade de qualquer instalação (.exe);"
+        feature_3: "Oferece interação, comunicação e relacionamento entre os envolvidos;"
+        feature_4: "Permite a negociação simultânea de vários e diferentes materiais com os fornecedores;"
+        feature_5: "Segurança através de usuários por perfis personalizados;"
+        feature_6: "Permite o cadastro de novos fornecedores, novos produtos e de infinitos usuários;"
+        feature_7: "Oferece a geração de relatório de economia, cotação e faturamento;"
+        feature_8: "Permite a indexação de consultas, guias e quaisquer documentos necessários."
+        feature_9: "Benefícios"
+        feature_10: "Acessível por qualquer meio eletrônico que tenha internet (mobile, etc);"
+        feature_11: "Controle total do processo, desde a cotação até a utilização do material;"
+        feature_12: "Maior poder de negociação e compra dos materiais, que geralmente são de alto custo;"
+        feature_13: "Relatório e histórico, por perfil, de todas as etapas do processo a ser gerenciado;"
+        feature_14: "Visualização de consultas, exames e laudos, tornando o procedimento mais rápido, beneficiando o paciente."
+        feature_15: "Gestão do conhecimento e informações para planejamento e tomada de decisões;"
+        feature_16: "Ampla manutenção dos itens cadastrados, visando alinhar o melhor preço e qualidade, bem como o controle de validade do código ANVISA dos materiais;"
+      who_uses:
+        paragraph_1: "Nossa solução está no mercado há cinco anos, sendo atualmente utilizada pela Unimed Intrafederativa Nordeste Paulista e suas singulares, trabalhando na mais alta transparência, segurança e facilidade. Potenciais forças que podem utilizar nossa aplicação, são empresas como:"
+        item_1: "— Operadores de Saúde"
+        item_2: "— Hospitais"
+        item_3: "— Clínicas Cirurgicas"
+        item_4: "— Todo seguimento de empresas que lidam com cotações de materiais de Orteses, Próteses e Materiais Especiais"
+  understanding_the_system:
+   index:
+      title: "Entendendo o Sistema"
+      table_of_contents:
+        index: "Índice" 
+        welcome: "Bem Vindo!" 
+        dashboard: "Dashboard"
+        mural: "Mural"
+      welcome:
+        item_1: "Olá, bem vindo ao Portal OPME da CloudMed! Iniciaremos agora, um passeio pelo sistema e todas as suas telas, entendendo todos seus processos e por fim suas funcionalidades. Fique a vontade e qualquer dúvida entre em contato conosco!"
+      dashboard:
+        item_1: "Abaixo temos nosso Dashboard, ou se preferir nosso (Painel de Bordo)! Essa é a primeira visualização que você terá toda vez que entrar no Portal OPME, aqui fica reunído de uma forma simples e objetiva todas as informações mais relevantes do sistema de acordo com a sua movimentação e com o perfil de seu usuário. Perceba na parte superior direita da tela, o campo de busca, nele é possivel buscar qualquer informação digitando somente uma palavra ou frase, dependendo do filtro que você colocar, o sistema te levará diretamente à essa informação ou mostrará uma lista de informações encontradas de acordo com o que foi digitado. Abuse dessa tela! Ela foi desenvolvida com os pensamentos voltados para uma melhor informação e agilidade de nossos usuários!"
+        item_2: "Dashboard"
+      mural:
+        item_1: "Abaixo apresentamos nosso mural. Nele, além de poder publicar qualquer informação para visualização dos outros usuários no sistema, você também visualiza as publicações que eles fazem, dessa forma, informar e ser informado fica rápido e prático, dispensando certas formalidades e contratempos para ciência da informação de todos."
+        item_2: "Mural"
+  menu_principal:
+   index:
+      title: "Menu Principal"
+      table_of_contents: 
+        index: "Índice"
+        menu_principal: "Menu Principal"
+        menu_principal_orcamentos: "Menu Principal > Orçamentos"	
+        menu_principal_relatorios: "Menu Principal > Relatórios"	
+        menu_principal_configuracoes: "Menu Principal > Configurações"
+      menu_principal:
+        item_1: "Abaixo você vê menu principal do sistema, ele sempre estará presente e visível no topo da tela do sistema, disponibilizando as ações para o usuário de acordo com suas permissões previamente definidas."
+        item_2: "Menu Principal"
+      menu_principal_orcamentos:
+        item_1: "Seguindo o menu Orçamentos, o sistema te oferecerá algumas opções para acompanhar os orçamentos e os status que em que se encontram:"	
+        item_2:	"Faturados/10 dias"
+        item_3:	"Aguardando Notas Fiscais"
+        item_4:	"Pendente Fornecedor"
+        item_5: "Menu Principal > Orçamentos"
+      menu_principal_relatorios:
+        item_1: "Em relatórios, você consegue ter a visualização e o controle exato de todos os pedidos de cotação e orçamentos que receber, acompanhe abaixo:"
+        item_2: "Produtos Vencidos"
+        item_3: "Produtos Vendidos"
+        item_4: "Top Compradores"
+        item_5: "Top Produtos"
+        item_6: "Menu Principal > Relatórios"
+      menu_principal_configuracoes:
+        item_1: "Além das configurações básicas para o sistema, o menu Configurações te leva para os cadastros dos produtos, onde sempre necessário atualizar as informações para que seus clientes fiquem informados, seguem as opções?"
+        item_2: "Meus Dados"
+        item_3: "Lista de Produtos"
+        item_4: "Valores Vencidos"
+        item_5: "Relacionar Produtos"
+        item_6: "Valorizar Produtos"
+        item_7: "Convidar Comprador"
+        item_8: "Menu Principal > Configurações"
+  orcamentos:
+   index:
+      title: "Orçamentos"
+      table_of_contents: 
+        index: "Índice"
+        faturados: "Faturados/10 dias"
+        notas_fiscais: "Aguardando Notas Fiscais"	
+        pendentes: "Pendente Fornecedor"
+      faturados:
+        item_1: "Menu > Orçamentos > Faturados/10 dias"
+        item_2: "Entrando no menu (Orçamentos > Faturados 10 dias) encontramos todos os orçamentos que foram aprovados pelos seus compradores nos ultimos 10 dias. Nessa tela  abaixo você visualiza os orçamentos que estão neste status e algumas de suas informações, você também consegue acessar facilmente o orçamento clicando em seu número no link logo a esqueda de cada orçamento"
+        item_3: "Lista de Orçamentos Faturados/10 dias"
+        item_4: "Carregando o orçamento, abaixo você tem um exemplo da tela que é exibida. Nela, conseguimos visualizar todos os dados do pedido e os produtos que foram faturados, assim, fica fácil verificar os dados para que os próximos passos da venda sejam feitos."
+        item_5: "Orçamento Faturado"
+      notas_fiscais:
+        item_1: "Menu > Orçamentos > Aguardando Notas Fiscais"
+        item_2: "Em Orçamentos > Aguardando Notas Fiscais temos todos os orçamentos que estão nesse status. Abaixo você tem a visualização de todos os orçamentos que estão aguardando a emissão da nota fiscal ao seu devido comprador, você também consegue acessar facilmente o orçamento clicando em seu número no link logo a esqueda de cada orçamento. Se essa opção não estiver aparecendo em seu menu, fique tranquilo, pois não existem orçamentos nesse status!"
+        item_3: "Orçamentos Aguardando Notas Fiscais"
+        item_4: "Clicando em um orçamento, assim como os orçamentos faturdos, também conseguimos visualizar todos os dados do orçamento e dos produtos que foram faturados. O diferencial é que, para anexar os arquivos de uma nota fiscal para que seu ciente veja, você deve clicar na aba 'Arquivos Anexos' como a tela abaixo especifica"
+        item_5: "Orçamento Aguardando Nota/s Fiscal/is"
+        item_6: "Clicando e entrando na tela abaixo, repare no botão escolher arquivo, você consegue anexar os documento referente ao orçamento e além disso consegue adicionar uma descrição para o que está sendo anexado. Assim, seu cliente consegue ter acesso e visualizar aguma informação que você queira deixar"
+        item_7: "Anexando arquivo a um Orçamento"
+      pendentes:
+        item_1: "Menu > Orçamentos > Pendentes Fornecedor"
+        item_2: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        item_3: "Orçamentos Pendentes"
+        item_4: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap i"
+  relatorios:
+   index:
+      title: "Relatórios"
+      table_of_contents: 
+        index: "Índice"
+        produtos_vencidos: "Produtos Vencidos"
+        produtos_vendidos: "Produtos Vendidos"	
+        top_compradores: "Top Compradores"	
+        top_produtos: "Top Produtos"
+      produtos_vencidos:
+        item_1: "Menu > Relatórios > Produtos Vencidos"
+        item_2: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap i"
+        item_3: "Relatório Produtos Vencidos"
+        item_4: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap i"
+      produtos_vendidos:
+        item_1: "Menu > Relatórios > Produtos Vendidos"
+        item_2: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        item_3: "Relatório Produtos Vendidos"
+        item_4: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap i"
+      top_compradores:
+        item_1: "Menu > Relatórios > Top Compradores"
+        item_2: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        item_3: "Relatório Top Compradores"
+        item_4: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap i"
+      top_produtos:
+        item_1: "Menu > Relatórios > Top Produtos"
+        item_2: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        item_3: "Relatório Top Produtos"
+        item_4: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap i"
+  configuracoes:
+   index:
+      title: "Configurações"
+      table_of_contents: 
+        index: "Índice"
+        meus_dados: "Meus Dados"
+        lista_produtos: "Lista de Produtos"
+        valores_vencidos: "Valores Vencidos"
+        relacionar_produtos: "Relacionar Produtos"
+        valorizar_produtos: "Valorizar Produtos"
+        convidar_comprador: "Convidar Comprador"
+      meus_dados:
+        item_1: "Menu > Configurações > Meus Dados"
+        item_2: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap i"
+        item_3: "Meus Dados"
+        item_4: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap i"
+      lista_produtos:
+        item_1: "Menu > Configurações > Lista de Produtos"
+        item_2: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap i"
+        item_3: "Lista de Produtos"      
+        item_4: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap i"
+      valores_vencidos:
+        item_1: "Menu > Configurações > Valores Vencidos"
+        item_2: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap i"
+        item_3: "Valores Vencidos"
+        item_4: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap i"
+      relacionar_produtos:
+        item_1: "Menu > Configurações > Relacionar Produtos"
+        item_2: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap i"
+        item_3: "Relacionar Produtos"
+        item_4: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap i"
+      valorizar_produtos:
+        item_1: "Menu > Configurações > Valorizar Produtos"
+        item_2: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap i"
+        item_3: "Valorizar Produtos"
+        item_4: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap i"
+      convidar_comprador:
+        item_1: "Menu > Configurações > Convidar Comprador"
+        item_2: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap i"
+        item_3: "Convidar Comprador"
+        item_4: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap i"
