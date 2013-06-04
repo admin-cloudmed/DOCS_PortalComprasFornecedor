@@ -142,6 +142,7 @@ form#search input{
 /* Menu */
 .accordion{
 	margin-top: 19px;
+	position: fixed;
 }
 .accordion-group{
 	margin-bottom: 7px;
@@ -208,7 +209,7 @@ h2.command-header{
   color: #777;
 }
 .footer-links {
-  margin: 10px 0;
+  margin: 0px 0;
 }
 .footer-links li {
   display: inline;
