@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>CloudMed</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="Detalhada documentação do serviço de desenvolvimento de aplicações para Soluções em Saúde">
+		<meta name="author" content="CloudMed">
+		<!-- Le styles -->
+		<link href="/css/bootstrap.css" rel="stylesheet">
+		<link href="/css/bootstrap-responsive.css" rel="stylesheet">
+		<link href="/css/shCore.css" rel="stylesheet">
+		<link href="/css/shCoreDefault.css" rel="stylesheet">
+		<link href="/css/app.css" rel="stylesheet">
+	</head>
+
+	<!-- Top Menu -->
+	<body>
+		<div class="navbar navbar-inverse navbar-fixed-top">
+			<div class="navbar-inner">
+				<div class="container">
+					<button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<div class="nav-collapse collapse">
+						<ul class="nav">
+						<li><a href="http://cloudmed.io"><%= I18n.t("main_menu.home") %></a></li>
+						<li class="active"><a href="http://localhost:4567"><%= I18n.t("main_menu.docs") %></a></li>
+						<li><a href="mailto:contato@cloudmed.io"><%= I18n.t("main_menu.get_in_touch") %></a></li>
+					</ul>
+					</div>
+				</div>
+			</div>
+	  </div>
+	  
+	  <!--Container -->
+	  <div class="container" id="top">
+		<br/><br/><br/>
+			<div class="row-fluid">
+				<div class="span3">        
+					<%= erb :_menu %>
+				</div>
+				<div class="span9">
+					<div id="banner">
+						<center><img src="/img/cloudmed100.png" alt="CloudMed" /></center>
+					</div>
+					<%= yield %>
+				</div>
+			</div>
+	  </div>
+
+	  <!--Footer -->
+	  <footer class="footer">
+		<div class="container">
+		  <p class="pull-right"><a href="http://www.cloudmed.io"><img src="/img/cloudmed100.png" alt="CloudMed"  width="100" height="100" /></a></p>
+		  <p><%= I18n.t("footer.paragraph_1") %></p>
+		  <br/>
+		  <p><a href="mailto:contato@cloudmed.io"><%= I18n.t("footer.get_in_touch") %></a></p>
+		</div>
+	  </footer>
+
+	  
+	  <script src="/js/jquery.min.js"></script>
+	  <script src="/js/bootstrap.min.js"></script>
+	  <script src="/js/shCore.js"></script>
+	  <script src="/js/shBrushXml.js"></script>
+	  <script src="/js/shBrushJScript.js"></script>
+	  <script type="text/javascript">
+		jQuery(document).ready(function(){
+		  SyntaxHighlighter.defaults.toolbar = false;SyntaxHighlighter.defaults['gutter'] = false;SyntaxHighlighter.all();
+		  $('a[href*=#]').not('.accordion a').click(function() {if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {var $target = $(this.hash);$target = $target.length && $target || $('[name=' + this.hash.slice(1) +']');if ($target.length) {var targetOffset = $target.offset().top - 50;$('html,body').animate({scrollTop: targetOffset}, 500);return false;}}});
+		})
+	  </script>
+	</body>
+</html>
