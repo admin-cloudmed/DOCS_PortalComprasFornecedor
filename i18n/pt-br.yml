@@ -65,17 +65,17 @@
       table_of_contents: 
         index: "Índice"
         menu_principal: "Menu Principal"
-        menu_principal_orcamentos: "Menu Principal > Orçamentos"	
-        menu_principal_relatorios: "Menu Principal > Relatórios"	
+        menu_principal_orcamentos: "Menu Principal > Orçamentos"
+        menu_principal_relatorios: "Menu Principal > Relatórios"
         menu_principal_configuracoes: "Menu Principal > Configurações"
       menu_principal:
         item_1: "Abaixo você vê menu principal do sistema, ele sempre estará presente e visível no topo da tela do sistema, disponibilizando as ações para o usuário de acordo com suas permissões previamente definidas."
         item_2: "Menu Principal"
       menu_principal_orcamentos:
-        item_1: "Seguindo o menu Orçamentos, o sistema te oferecerá algumas opções para acompanhar os orçamentos e os status que em que se encontram:"	
-        item_2:	"Faturados/10 dias"
-        item_3:	"Aguardando Notas Fiscais"
-        item_4:	"Pendente Fornecedor"
+        item_1: "Seguindo o menu Orçamentos, o sistema te oferecerá algumas opções para acompanhar os orçamentos e os status que em que se encontram:"
+        item_2: "Produtos Vencidos"
+        item_3: "Produtos Vendidos"
+        item_4: "Top Compradores"
         item_5: "Menu Principal > Orçamentos"
       menu_principal_relatorios:
         item_1: "Em relatórios, você consegue ter a visualização e o controle exato de todos os pedidos de cotação e orçamentos que receber, acompanhe abaixo:"
@@ -99,7 +99,7 @@
       table_of_contents: 
         index: "Índice"
         faturados: "Faturados/10 dias"
-        notas_fiscais: "Aguardando Notas Fiscais"	
+        notas_fiscais: "Aguardando Notas Fiscais"
         pendentes: "Pendente Fornecedor"
       faturados:
         item_1: "Menu > Orçamentos > Faturados/10 dias"
@@ -126,8 +126,8 @@
       table_of_contents: 
         index: "Índice"
         produtos_vencidos: "Produtos Vencidos"
-        produtos_vendidos: "Produtos Vendidos"	
-        top_compradores: "Top Compradores"	
+        produtos_vendidos: "Produtos Vendidos"
+        top_compradores: "Top Compradores"
         top_produtos: "Top Produtos"
       produtos_vencidos:
         item_1: "Menu > Relatórios > Produtos Vencidos"
