@@ -8,122 +8,614 @@
 
 <url>
   <loc>http://docs.cloudwalk.io/pt-BR/overview</loc>
-  <changefreq>weekly</changefreq>
+  <changefreq>monthly</changefreq>
 </url>
 <url>
   <loc>http://docs.cloudwalk.io/pt-BR/overview/walk-framework</loc>
-  <changefreq>weekly</changefreq>
+  <changefreq>monthly</changefreq>
 </url>
 <url>
   <loc>http://docs.cloudwalk.io/pt-BR/overview/walk-manager</loc>
-  <changefreq>weekly</changefreq>
+  <changefreq>monthly</changefreq>
 </url>
 <url>
   <loc>http://docs.cloudwalk.io/pt-BR/overview/walk-compiler</loc>
-  <changefreq>weekly</changefreq>
+  <changefreq>monthly</changefreq>
 </url>
 <url>
   <loc>http://docs.cloudwalk.io/pt-BR/overview/posxml</loc>
-  <changefreq>weekly</changefreq>
+  <changefreq>monthly</changefreq>
 </url>
 <url>
   <loc>http://docs.cloudwalk.io/pt-BR/walk-framework/verifone-evo</loc>
-  <changefreq>weekly</changefreq>
+  <changefreq>monthly</changefreq>
 </url>
 <url>
   <loc>http://docs.cloudwalk.io/pt-BR/walk-framework/verifone-verix</loc>
-  <changefreq>weekly</changefreq>
+  <changefreq>monthly</changefreq>
 </url>
 <url>
   <loc>http://docs.cloudwalk.io/pt-BR/walk-framework/ingenico-telium-2</loc>
-  <changefreq>weekly</changefreq>
+  <changefreq>monthly</changefreq>
 </url>
 <url>
   <loc>http://docs.cloudwalk.io/pt-BR/walk-manager/apps</loc>
-  <changefreq>weekly</changefreq>
+  <changefreq>monthly</changefreq>
 </url>
 <url>
   <loc>http://docs.cloudwalk.io/pt-BR/walk-manager/terminals</loc>
-  <changefreq>weekly</changefreq>
+  <changefreq>monthly</changefreq>
 </url>
 <url>
   <loc>http://docs.cloudwalk.io/pt-BR/walk-manager/logical-numbers</loc>
-  <changefreq>weekly</changefreq>
+  <changefreq>monthly</changefreq>
 </url>
 <url>
   <loc>http://docs.cloudwalk.io/pt-BR/walk-manager/groups</loc>
-  <changefreq>weekly</changefreq>
+  <changefreq>monthly</changefreq>
 </url>
 <url>
   <loc>http://docs.cloudwalk.io/pt-BR/walk-manager/assets</loc>
-  <changefreq>weekly</changefreq>
+  <changefreq>monthly</changefreq>
 </url>
 <url>
   <loc>http://docs.cloudwalk.io/pt-BR/walk-manager/transactions-monitor</loc>
-  <changefreq>weekly</changefreq>
+  <changefreq>monthly</changefreq>
 </url>
 <url>
   <loc>http://docs.cloudwalk.io/pt-BR/walk-compiler/setup</loc>
-  <changefreq>weekly</changefreq>
+  <changefreq>monthly</changefreq>
 </url>
 <url>
   <loc>http://docs.cloudwalk.io/pt-BR/posxml/structure</loc>
-  <changefreq>weekly</changefreq>
+  <changefreq>monthly</changefreq>
 </url>
 <url>
   <loc>http://docs.cloudwalk.io/pt-BR/posxml/memory-and-variables</loc>
-  <changefreq>weekly</changefreq>
+  <changefreq>monthly</changefreq>
 </url>
 <url>
   <loc>http://docs.cloudwalk.io/pt-BR/posxml/file-system</loc>
-  <changefreq>weekly</changefreq>
+  <changefreq>monthly</changefreq>
 </url>
 <url>
   <loc>http://docs.cloudwalk.io/pt-BR/posxml/configuration</loc>
-  <changefreq>weekly</changefreq>
+  <changefreq>monthly</changefreq>
 </url>
 <url>
-  <loc>http://docs.cloudwalk.io/pt-BR/posxml/commands-list</loc>
-  <changefreq>weekly</changefreq>
+  <loc>http://docs.cloudwalk.io/pt-BR/posxml/commands</loc>
+  <changefreq>monthly</changefreq>
 </url>
 <url>
   <loc>http://docs.cloudwalk.io/pt-BR/api/overview</loc>
-  <changefreq>weekly</changefreq>
+  <changefreq>monthly</changefreq>
 </url>
 <url>
   <loc>http://docs.cloudwalk.io/pt-BR/api/v1/apps</loc>
-  <changefreq>weekly</changefreq>
+  <changefreq>monthly</changefreq>
 </url>
 <url>
   <loc>http://docs.cloudwalk.io/pt-BR/api/v1/terminals</loc>
-  <changefreq>weekly</changefreq>
+  <changefreq>monthly</changefreq>
 </url>
 <url>
   <loc>http://docs.cloudwalk.io/pt-BR/api/v1/logical-numbers</loc>
-  <changefreq>weekly</changefreq>
+  <changefreq>monthly</changefreq>
 </url>
 <url>
   <loc>http://docs.cloudwalk.io/pt-BR/api/v1/groups</loc>
-  <changefreq>weekly</changefreq>
+  <changefreq>monthly</changefreq>
 </url>
 <url>
   <loc>http://docs.cloudwalk.io/pt-BR/api/v1/parameters</loc>
-  <changefreq>weekly</changefreq>
+  <changefreq>monthly</changefreq>
 </url>
 <url>
   <loc>http://docs.cloudwalk.io/pt-BR/api/v1/assets</loc>
-  <changefreq>weekly</changefreq>
+  <changefreq>monthly</changefreq>
 </url>
 <url>
   <loc>http://docs.cloudwalk.io/pt-BR/api/v1/users</loc>
-  <changefreq>weekly</changefreq>
+  <changefreq>monthly</changefreq>
 </url>
 <url>
   <loc>http://docs.cloudwalk.io/pt-BR/api/v1/logs</loc>
-  <changefreq>weekly</changefreq>
+  <changefreq>monthly</changefreq>
 </url>
 <url>
-  <loc>http://docs.cloudwalk.io/pt-BR/sample-apps/sales</loc>
-  <changefreq>weekly</changefreq>
+  <loc>http://docs.cloudwalk.io/pt-BR/integration/architecture</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://docs.cloudwalk.io/pt-BR/integration/http</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://docs.cloudwalk.io/pt-BR/integration/tcp</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://docs.cloudwalk.io/pt-BR/posxml/commands/if</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://docs.cloudwalk.io/pt-BR/posxml/commands/else</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://docs.cloudwalk.io/pt-BR/posxml/commands/while</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://docs.cloudwalk.io/pt-BR/posxml/commands/break</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://docs.cloudwalk.io/pt-BR/posxml/commands/function</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://docs.cloudwalk.io/pt-BR/posxml/commands/callfunction</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://docs.cloudwalk.io/pt-BR/posxml/commands/execute</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://docs.cloudwalk.io/pt-BR/posxml/commands/exit</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://docs.cloudwalk.io/pt-BR/posxml/commands/getcardvariable</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://docs.cloudwalk.io/pt-BR/posxml/commands/system.readcard</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://docs.cloudwalk.io/pt-BR/posxml/commands/system.inputtransaction</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://docs.cloudwalk.io/pt-BR/posxml/commands/menu</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://docs.cloudwalk.io/pt-BR/posxml/commands/menuwithheader</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://docs.cloudwalk.io/pt-BR/posxml/commands/displaybitmap</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://docs.cloudwalk.io/pt-BR/posxml/commands/display</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://docs.cloudwalk.io/pt-BR/posxml/commands/cleandisplay</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://docs.cloudwalk.io/pt-BR/posxml/commands/system.gettouchscreen</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://docs.cloudwalk.io/pt-BR/posxml/commands/print</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://docs.cloudwalk.io/pt-BR/posxml/commands/printbig</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://docs.cloudwalk.io/pt-BR/posxml/commands/printbitmap</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://docs.cloudwalk.io/pt-BR/posxml/commands/printbarcode</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://docs.cloudwalk.io/pt-BR/posxml/commands/checkpaperout</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://docs.cloudwalk.io/pt-BR/posxml/commands/paperfeed</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://docs.cloudwalk.io/pt-BR/posxml/commands/inputfloat</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://docs.cloudwalk.io/pt-BR/posxml/commands/inputformat</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://docs.cloudwalk.io/pt-BR/posxml/commands/inputinteger</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://docs.cloudwalk.io/pt-BR/posxml/commands/inputoption</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://docs.cloudwalk.io/pt-BR/posxml/commands/inputmoney</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://docs.cloudwalk.io/pt-BR/posxml/commands/crypto.crc</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://docs.cloudwalk.io/pt-BR/posxml/commands/crypto.encryptdecrypt</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://docs.cloudwalk.io/pt-BR/posxml/commands/crypto.lrc</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://docs.cloudwalk.io/pt-BR/posxml/commands/crypto.xor</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://docs.cloudwalk.io/pt-BR/posxml/commands/downloadfile</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://docs.cloudwalk.io/pt-BR/posxml/commands/filesystem.filesize</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://docs.cloudwalk.io/pt-BR/posxml/commands/filesystem.listfiles</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://docs.cloudwalk.io/pt-BR/posxml/commands/filesystem.space</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://docs.cloudwalk.io/pt-BR/posxml/commands/file.open</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://docs.cloudwalk.io/pt-BR/posxml/commands/file.close</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://docs.cloudwalk.io/pt-BR/posxml/commands/file.read</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://docs.cloudwalk.io/pt-BR/posxml/commands/file.write</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://docs.cloudwalk.io/pt-BR/posxml/commands/readfile</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://docs.cloudwalk.io/pt-BR/posxml/commands/readfilebyindex</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://docs.cloudwalk.io/pt-BR/posxml/commands/editfile</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://docs.cloudwalk.io/pt-BR/posxml/commands/deletefile</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://docs.cloudwalk.io/pt-BR/posxml/commands/iso8583.initfieldtable</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://docs.cloudwalk.io/pt-BR/posxml/commands/iso8583.initmessage</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://docs.cloudwalk.io/pt-BR/posxml/commands/iso8583.putfield</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://docs.cloudwalk.io/pt-BR/posxml/commands/iso8583.endmessage</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://docs.cloudwalk.io/pt-BR/posxml/commands/iso8583.transactmessage</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://docs.cloudwalk.io/pt-BR/posxml/commands/iso8583.analyzemessage</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://docs.cloudwalk.io/pt-BR/posxml/commands/iso8583.getfield</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://docs.cloudwalk.io/pt-BR/posxml/commands/openserialport</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://docs.cloudwalk.io/pt-BR/posxml/commands/writeserialport</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://docs.cloudwalk.io/pt-BR/posxml/commands/readserialport</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://docs.cloudwalk.io/pt-BR/posxml/commands/closeserialport</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://docs.cloudwalk.io/pt-BR/posxml/commands/getdatetime</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://docs.cloudwalk.io/pt-BR/posxml/commands/time.calculate</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://docs.cloudwalk.io/pt-BR/posxml/commands/adjustdatetime</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://docs.cloudwalk.io/pt-BR/posxml/commands/predial</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://docs.cloudwalk.io/pt-BR/posxml/commands/preconnect</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://docs.cloudwalk.io/pt-BR/posxml/commands/shutdownmodem</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://docs.cloudwalk.io/pt-BR/posxml/commands/network.checkgprssignal</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://docs.cloudwalk.io/pt-BR/posxml/commands/network.hostdisconnect</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://docs.cloudwalk.io/pt-BR/posxml/commands/network.ping</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://docs.cloudwalk.io/pt-BR/posxml/commands/network.send</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://docs.cloudwalk.io/pt-BR/posxml/commands/network.receive</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://docs.cloudwalk.io/pt-BR/posxml/commands/pinpad.open</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://docs.cloudwalk.io/pt-BR/posxml/commands/pinpad.loadipek</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://docs.cloudwalk.io/pt-BR/posxml/commands/pinpad.getkey</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://docs.cloudwalk.io/pt-BR/posxml/commands/pinpad.getpindukpt</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://docs.cloudwalk.io/pt-BR/posxml/commands/pinpad.display</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://docs.cloudwalk.io/pt-BR/posxml/commands/pinpad.close</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://docs.cloudwalk.io/pt-BR/posxml/commands/emv.open</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://docs.cloudwalk.io/pt-BR/posxml/commands/emv.loadtables</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://docs.cloudwalk.io/pt-BR/posxml/commands/emv.cleanstructures</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://docs.cloudwalk.io/pt-BR/posxml/commands/emv.adddata</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://docs.cloudwalk.io/pt-BR/posxml/commands/emv.getinfo</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://docs.cloudwalk.io/pt-BR/posxml/commands/emv.inittransaction</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://docs.cloudwalk.io/pt-BR/posxml/commands/emv.processtransaction</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://docs.cloudwalk.io/pt-BR/posxml/commands/emv.finishtransaction</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://docs.cloudwalk.io/pt-BR/posxml/commands/emv.removecard</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://docs.cloudwalk.io/pt-BR/posxml/commands/emv.settimeout</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://docs.cloudwalk.io/pt-BR/posxml/commands/integervariable</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://docs.cloudwalk.io/pt-BR/posxml/commands/stringvariable</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://docs.cloudwalk.io/pt-BR/posxml/commands/integerconvert</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://docs.cloudwalk.io/pt-BR/posxml/commands/convert.toint</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://docs.cloudwalk.io/pt-BR/posxml/commands/inttostring</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://docs.cloudwalk.io/pt-BR/posxml/commands/stringtoint</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://docs.cloudwalk.io/pt-BR/posxml/commands/integeroperator</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://docs.cloudwalk.io/pt-BR/posxml/commands/string.tohex</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://docs.cloudwalk.io/pt-BR/posxml/commands/string.fromhex</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://docs.cloudwalk.io/pt-BR/posxml/commands/string.charat</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://docs.cloudwalk.io/pt-BR/posxml/commands/string.elementat</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://docs.cloudwalk.io/pt-BR/posxml/commands/string.elements</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://docs.cloudwalk.io/pt-BR/posxml/commands/string.find</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://docs.cloudwalk.io/pt-BR/posxml/commands/string.getvaluebykey</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://docs.cloudwalk.io/pt-BR/posxml/commands/string.trim</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://docs.cloudwalk.io/pt-BR/posxml/commands/string.insertat</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://docs.cloudwalk.io/pt-BR/posxml/commands/string.length</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://docs.cloudwalk.io/pt-BR/posxml/commands/string.pad</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://docs.cloudwalk.io/pt-BR/posxml/commands/string.removeat</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://docs.cloudwalk.io/pt-BR/posxml/commands/string.replace</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://docs.cloudwalk.io/pt-BR/posxml/commands/string.replaceat</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://docs.cloudwalk.io/pt-BR/posxml/commands/string.substring</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://docs.cloudwalk.io/pt-BR/posxml/commands/substring</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://docs.cloudwalk.io/pt-BR/posxml/commands/joinstring</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://docs.cloudwalk.io/pt-BR/posxml/commands/input.getvalue</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://docs.cloudwalk.io/pt-BR/posxml/commands/smartcard.insertedcard</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://docs.cloudwalk.io/pt-BR/posxml/commands/smartcard.closereader</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://docs.cloudwalk.io/pt-BR/posxml/commands/smartcard.startreader</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://docs.cloudwalk.io/pt-BR/posxml/commands/smartcard.transmitapdu</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://docs.cloudwalk.io/pt-BR/posxml/commands/mathematicaloperation</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://docs.cloudwalk.io/pt-BR/posxml/commands/system.beep</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://docs.cloudwalk.io/pt-BR/posxml/commands/system.checkbattery</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://docs.cloudwalk.io/pt-BR/posxml/commands/system.info</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://docs.cloudwalk.io/pt-BR/posxml/commands/system.restart</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://docs.cloudwalk.io/pt-BR/posxml/commands/unzipfile</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://docs.cloudwalk.io/pt-BR/posxml/commands/waitkey</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://docs.cloudwalk.io/pt-BR/posxml/commands/waitkeytimeout</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://docs.cloudwalk.io/pt-BR/posxml/commands/readkey</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://docs.cloudwalk.io/pt-BR/posxml/commands/wait</loc>
+  <changefreq>monthly</changefreq>
 </url>
 </urlset>

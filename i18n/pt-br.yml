@@ -3,6 +3,10 @@
     home: "Início"
     docs: "Documentação"
     get_in_touch: "Entre em contato"
+  errors:
+    not_found:
+      title: "Página não econtrada"
+      description: "Não foi possível encontrar a página solicitada."
   general:
     updated_at: "Atualizado em %{date}"
     index: "Índice"
