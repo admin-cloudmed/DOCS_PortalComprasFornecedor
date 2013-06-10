@@ -43,10 +43,10 @@
         feature_16: "Ampla manutenção dos itens cadastrados, visando alinhar o melhor preço e qualidade, bem como o controle de validade do código ANVISA dos materiais;"
       who_uses:
         paragraph_1: "Nossa solução está no mercado há cinco anos, sendo atualmente utilizada pela Unimed Intrafederativa Nordeste Paulista e suas singulares, trabalhando na mais alta transparência, segurança e facilidade. Potenciais forças que podem utilizar nossa aplicação, são empresas como:"
-        item_1: "— Operadores de Saúde"
-        item_2: "— Hospitais"
-        item_3: "— Clínicas Cirurgicas"
-        item_4: "— Todo seguimento de empresas que lidam com cotações de materiais de Orteses, Próteses e Materiais Especiais"
+        item_1: "Hospitais"
+        item_2: "Operadores de Saúde Fornecedores de materiais OPME"
+        item_3: "Clínicas Cirurgicas"
+        item_4: "Todo seguimento de empresas que lidam com cotações de materiais de Orteses, Próteses e Materiais Especiais"
   understanding_the_system:
    index:
       title: "Entendendo o Sistema"

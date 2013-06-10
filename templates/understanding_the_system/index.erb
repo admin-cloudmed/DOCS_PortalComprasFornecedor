@@ -1,4 +1,4 @@
-<h1><%= I18n.t("understanding_the_system.index.title") %></h1>
+<center><h1><%= I18n.t("understanding_the_system.index.title") %></h1></center>
 <p class="more-info"><%= I18n.t("general.updated_at", :date => "06/03/2013") %></p>
 <h3><%= I18n.t("general.index") %></h3>
 
@@ -22,7 +22,7 @@
 <div class="row-fluid">
 	<p><%= I18n.t("understanding_the_system.index.dashboard.item_1") %></p>
 	<img src="/img/understanding_the_system/Dashboard.png" alt="Dashboard" />
-	<p align="right"><%= I18n.t("understanding_the_system.index.dashboard.item_2") %></p>
+	<p align="right" style="font-weight:bold;"><%= I18n.t("understanding_the_system.index.dashboard.item_2") %></p>
 </div>
 
 <!--Mural -->
@@ -31,12 +31,11 @@
 <div class="row-fluid">
 	<p><%= I18n.t("understanding_the_system.index.mural.item_1") %></p>
 	<img src="/img/understanding_the_system/Mural.jpg" alt="Mural" />
-	<p align="right"><%= I18n.t("understanding_the_system.index.mural.item_2") %></p>
+	<p align="right" style="font-weight:bold;"><%= I18n.t("understanding_the_system.index.mural.item_2") %></p>
 </div>
 
-<!--Botão proximo -->
+<!--Botões -->
 <ul class="pager">
-  <li class="next">
-	<%= link_to(I18n.t("menu_principal.index.title")+ " &rarr;", "menu_principal") %>
-  </li>
+  <li class="previous"><%= link_to("&larr; " + I18n.t("portalopme.index.title"), "portalopme") %></li>
+  <li class="next"><%= link_to(I18n.t("menu_principal.index.title")+ " &rarr;", "menu_principal") %></li>
 </ul>

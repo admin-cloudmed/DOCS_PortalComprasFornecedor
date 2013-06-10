@@ -1,4 +1,4 @@
-<h1><%= I18n.t("relatorios.index.title") %></h1>
+<center><h1><%= I18n.t("relatorios.index.title") %></h1></center>
 <p class="more-info"><%= I18n.t("general.updated_at", :date => "06/03/2013") %></p>
 <h3><%= I18n.t("general.index") %></h3>
 
@@ -16,10 +16,10 @@
 <h2 id="produtos_vencidos_inner"><%= I18n.t("relatorios.index.table_of_contents.produtos_vencidos") %></h2>
 <div class="row-fluid">
 	<center><img src="/img/relatorios/relatorios_produtos_vencidos.jpg" alt="Produtos Vencidos" /></center>
-	<p align="right"><%= I18n.t("relatorios.index.produtos_vencidos.item_1") %></p>
+	<p align="right" style="font-weight:bold;"><%= I18n.t("relatorios.index.produtos_vencidos.item_1") %></p>
 	<p> <%= I18n.t("relatorios.index.produtos_vencidos.item_2") %></p>
 	<center><img src="/img/relatorios/produtos_vencidos.jpg" alt="Produtos Vencidos" /></center>
-	<p align="right"><%= I18n.t("relatorios.index.produtos_vencidos.item_3") %></p>
+	<p align="right" style="font-weight:bold;"><%= I18n.t("relatorios.index.produtos_vencidos.item_3") %></p>
 	<p> <%= I18n.t("relatorios.index.produtos_vencidos.item_4") %></p>
 </div>
 
@@ -28,10 +28,10 @@
 <h2 id="produtos_vendidos_inner"><%= I18n.t("relatorios.index.table_of_contents.produtos_vendidos") %></h2>
 <div class="row-fluid">
 	<center><img src="/img/relatorios/relatorios_produtos_vendidos.jpg" alt="Produtos Vendidos" /></center>
-	<p align="right"><%= I18n.t("relatorios.index.produtos_vendidos.item_1") %></p>
+	<p align="right" style="font-weight:bold;"><%= I18n.t("relatorios.index.produtos_vendidos.item_1") %></p>
 	<p> <%= I18n.t("relatorios.index.produtos_vendidos.item_2") %></p>
 	<center><img src="/img/relatorios/produtos_vendidos.jpg" alt="Produtos Vendidos" /></center>
-	<p align="right"><%= I18n.t("relatorios.index.produtos_vendidos.item_3") %></p>
+	<p align="right" style="font-weight:bold;"><%= I18n.t("relatorios.index.produtos_vendidos.item_3") %></p>
 	<p> <%= I18n.t("relatorios.index.produtos_vendidos.item_4") %></p>
 </div>
 
@@ -41,10 +41,10 @@
 <h2 id="top_compradores_inner"><%= I18n.t("relatorios.index.table_of_contents.top_compradores") %></h2>
 <div class="row-fluid">
 	<center><img src="/img/relatorios/relatorios_top_compradores.jpg" alt="Top Compradores" /></center>
-	<p align="right"><%= I18n.t("relatorios.index.top_compradores.item_1") %></p>
+	<p align="right" style="font-weight:bold;"><%= I18n.t("relatorios.index.top_compradores.item_1") %></p>
 	<p> <%= I18n.t("relatorios.index.top_compradores.item_2") %></p>
 	<center><img src="/img/relatorios/top_compradores.jpg" alt="Top Compradores" /></center>
-	<p align="right"><%= I18n.t("relatorios.index.top_compradores.item_3") %></p>
+	<p align="right" style="font-weight:bold;"><%= I18n.t("relatorios.index.top_compradores.item_3") %></p>
 	<p> <%= I18n.t("relatorios.index.top_compradores.item_4") %></p>
 </div>
 
@@ -54,10 +54,10 @@
 <h2 id="top_produtos_inner"><%= I18n.t("relatorios.index.table_of_contents.top_produtos") %></h2>
 <div class="row-fluid">
 	<center><img src="/img/relatorios/relatorios_top_produtos.jpg" alt="Top Produtos" /></center>
-	<p align="right"><%= I18n.t("relatorios.index.top_produtos.item_1") %></p>
+	<p align="right" style="font-weight:bold;"><%= I18n.t("relatorios.index.top_produtos.item_1") %></p>
 	<p> <%= I18n.t("relatorios.index.top_produtos.item_2") %></p>
 	<center><img src="/img/relatorios/top_produtos.jpg" alt="Top Produtos" /></center>
-	<p align="right"><%= I18n.t("relatorios.index.top_produtos.item_3") %></p>
+	<p align="right" style="font-weight:bold;"><%= I18n.t("relatorios.index.top_produtos.item_3") %></p>
 	<p> <%= I18n.t("relatorios.index.top_produtos.item_4") %></p>
 </div>
 
@@ -65,7 +65,6 @@
 
 <!--Botão proximo -->
 <ul class="pager">
-  <li class="next">
-    <%= link_to(I18n.t("configuracoes.index.title") + " &rarr;", "configuracoes") %>
-  </li>
+  <li class="previous"><%= link_to("&larr; " + I18n.t("orcamentos.index.title"), "orcamentos") %></li>
+  <li class="next"><%= link_to(I18n.t("configuracoes.index.title") + " &rarr;", "configuracoes") %></li>
 </ul>
