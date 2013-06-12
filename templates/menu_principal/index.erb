@@ -3,21 +3,26 @@
 <h3><%= I18n.t("general.index") %></h3>
 
 <!--Indice -->
-<ol class="table-of-contents">
+<div id="navegador">
+ <center><ul>
 	<li><a href="#menu_principal_inner"><%= I18n.t("menu_principal.index.table_of_contents.menu_principal") %></a></li>
 	<li><a href="#menu_principal_orcamentos_inner"><%= I18n.t("menu_principal.index.table_of_contents.menu_principal_orcamentos") %></a></li>
 	<li><a href="#menu_principal_relatorios_inner"><%= I18n.t("menu_principal.index.table_of_contents.menu_principal_relatorios") %></a></li>
 	<li><a href="#menu_principal_configuracoes_inner"><%= I18n.t("menu_principal.index.table_of_contents.menu_principal_configuracoes") %></a></li>
-</ol>
+  </ul></center>
+</div>
+
 
 <!--Menu Principal -->
 <div id ="menu_principal" > &nbsp </div>
 <h2 id="menu_principal_inner"><%= I18n.t("menu_principal.index.table_of_contents.menu_principal") %></h2>
 <div class="row-fluid">
-	<p> <%= I18n.t("menu_principal.index.menu_principal.item_1") %></p>
+	<p style="text-indent: 3em; text-align: justify;"> <%= I18n.t("menu_principal.index.menu_principal.item_1") %></p>
 	<img src="/img/menu_principal/Menu Principal.jpg" alt="Menu Principal" />
 	<p align="right" style="font-weight:bold;"><%= I18n.t("menu_principal.index.menu_principal.item_2") %></p>
 </div>
+
+<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
 
 <!--Menu Principal > Orcamentos -->
 <div id ="menu_principal_orcamentos" > &nbsp </div>
@@ -25,13 +30,18 @@
 <div class="row-fluid">
 	<img src="/img/menu_principal/menu_principal_orcamentos.jpg" alt="Menu Principal Orcamentos" />
 	<p align="right" style="font-weight:bold;"><%= I18n.t("menu_principal.index.menu_principal_orcamentos.item_5") %></p>
-	<p> <%= I18n.t("menu_principal.index.menu_principal_orcamentos.item_1") %></p>
-	<ul>
-	    <li><a href="#faturados"><%= link_to(I18n.t("menu_principal.index.menu_principal_orcamentos.item_2"), "orcamentos#faturados") %></a></li>
-		<li><a href="#notasfiscais"><%= link_to(I18n.t("menu_principal.index.menu_principal_orcamentos.item_3"), "orcamentos#notas_fiscais") %></a></li>
-		<li><a href="#pendentes"><%= link_to(I18n.t("menu_principal.index.menu_principal_orcamentos.item_4"), "orcamentos#pendentes") %></a></li>    
-    </ul>
+	<p style="text-indent: 3em; text-align: justify;"> <%= I18n.t("menu_principal.index.menu_principal_orcamentos.item_1") %></p>
+	<div id="navegador">
+ 		<center><ul>
+	   		<li><%= link_to(I18n.t("menu_principal.index.menu_principal_orcamentos.item_2"), "orcamentos#faturados") %></li>
+			<li><%= link_to(I18n.t("menu_principal.index.menu_principal_orcamentos.item_3"), "orcamentos#notas_fiscais") %></li>
+			<li><%= link_to(I18n.t("menu_principal.index.menu_principal_orcamentos.item_4"), "orcamentos#pendentes") %></li>    
+      	</ul></center>
+	</div>
 </div>
+
+<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+
 
 <!--Menu Principal > Relatórios -->
 <div id ="menu_principal_relatorios" > &nbsp </div>
@@ -39,14 +49,18 @@
 <div class="row-fluid">
 	<img src="/img/menu_principal/menu_principal_relatorios.jpg" alt="Menu Principal" />
 	<p align="right" style="font-weight:bold;"><%= I18n.t("menu_principal.index.menu_principal_relatorios.item_6") %></p>
-	<p> <%= I18n.t("menu_principal.index.menu_principal_relatorios.item_1") %></p>
-	<ul>
-		<li><a href="#produtos_vencidos"><%= link_to(I18n.t("menu_principal.index.menu_principal_relatorios.item_2"), "relatorios#produtos_vencidos") %></a></li>
-		<li><a href="#produtos_vendidos"><%= link_to(I18n.t("menu_principal.index.menu_principal_relatorios.item_3"), "relatorios#produtos_vendidos") %></a></li>
-		<li><a href="#top_compradores"><%= link_to(I18n.t("menu_principal.index.menu_principal_relatorios.item_4"), "relatorios#top_compradores") %></a></li>    
-		<li><a href="#top_produtos"><%= link_to(I18n.t("menu_principal.index.menu_principal_relatorios.item_5"), "relatorios#top_produtos") %></a></li>       
-   </ul>
+	<p style="text-indent: 3em; text-align: justify;"> <%= I18n.t("menu_principal.index.menu_principal_relatorios.item_1") %></p>
+	<div id="navegador">
+ 		<center><ul>
+			<li><%= link_to(I18n.t("menu_principal.index.menu_principal_relatorios.item_2"), "relatorios#produtos_vencidos") %></li>
+			<li><%= link_to(I18n.t("menu_principal.index.menu_principal_relatorios.item_3"), "relatorios#produtos_vendidos") %></li>
+			<li><%= link_to(I18n.t("menu_principal.index.menu_principal_relatorios.item_4"), "relatorios#top_compradores") %></li>    
+			<li><%= link_to(I18n.t("menu_principal.index.menu_principal_relatorios.item_5"), "relatorios#top_produtos") %></li>       
+ 		</ul></center>
+	</div>
 </div>
+
+<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
 
 <!--Menu Principal > Configurações -->
 <div id ="menu_principal_configuracoes" > &nbsp </div>
@@ -54,15 +68,17 @@
 <div class="row-fluid">
 	<img src="/img/menu_principal/menu_principal_configuracoes.jpg" alt="Menu Principal" />
 	<p align="right" style="font-weight:bold;"><%= I18n.t("menu_principal.index.menu_principal_configuracoes.item_8") %></p>
-	<p> <%= I18n.t("menu_principal.index.menu_principal_configuracoes.item_1") %></p>
-	<ul>
-	    <li><a href="#meus_dados"><%= link_to(I18n.t("menu_principal.index.menu_principal_configuracoes.item_2"), "configuracoes#meus_dados") %></a></li>
-		<li><a href="#lista_produtos"><%= link_to(I18n.t("menu_principal.index.menu_principal_configuracoes.item_3"), "configuracoes#lista_produtos") %></a></li>
-		<li><a href="#valores_vencidos"><%= link_to(I18n.t("menu_principal.index.menu_principal_configuracoes.item_4"), "configuracoes#valores_vencidos") %></a></li>    
-		<li><a href="#relacionar_produtos"><%= link_to(I18n.t("menu_principal.index.menu_principal_configuracoes.item_5"), "configuracoes#relacionar_produtos") %></a></li>    
-		<li><a href="#valorizar_produtos"><%= link_to(I18n.t("menu_principal.index.menu_principal_configuracoes.item_6"), "configuracoes#valorizar_produtos") %></a></li>    
-		<li><a href="#convidar_comprador"><%= link_to(I18n.t("menu_principal.index.menu_principal_configuracoes.item_7"), "configuracoes#convidar_comprador") %></a></li>       
-   </ul>
+	<p style="text-indent: 3em; text-align: justify;"> <%= I18n.t("menu_principal.index.menu_principal_configuracoes.item_1") %></p>
+	<div id="navegador">
+ 		<center><ul>
+		    <li><%= link_to(I18n.t("menu_principal.index.menu_principal_configuracoes.item_2"), "configuracoes#meus_dados") %></li>
+			<li><%= link_to(I18n.t("menu_principal.index.menu_principal_configuracoes.item_3"), "configuracoes#lista_produtos") %></li>
+			<li><%= link_to(I18n.t("menu_principal.index.menu_principal_configuracoes.item_4"), "configuracoes#valores_vencidos") %></li>    
+			<li><%= link_to(I18n.t("menu_principal.index.menu_principal_configuracoes.item_5"), "configuracoes#relacionar_produtos") %></li>    
+			<li><%= link_to(I18n.t("menu_principal.index.menu_principal_configuracoes.item_6"), "configuracoes#valorizar_produtos") %></li>    
+			<li><%= link_to(I18n.t("menu_principal.index.menu_principal_configuracoes.item_7"), "configuracoes#convidar_comprador") %></li>       
+		</ul></center>
+	</div>
 </div>
 
 <!--Botões -->

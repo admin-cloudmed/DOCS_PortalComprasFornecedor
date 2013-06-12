@@ -435,9 +435,9 @@ h2.command-header{
 	height:51px;
 	border:none;
 	text-indent:-999px;
-	background:url(http://static.tumblr.com/8jq17g7/Ecym0czgw/ui.totop.png) no-repeat left top;}
+	background:url(http://1.bp.blogspot.com/-6sXpI44HgwA/T3mZ0M8IsvI/AAAAAAAABu8/Vn1gic1GUdo/s1600/gotopdbstyle5.png) no-repeat left top;}
 #toTopHover {
-	background:url(http://static.tumblr.com/8jq17g7/Ecym0czgw/ui.totop.png) no-repeat left -51px;
+	background:url(http://1.bp.blogspot.com/-6sXpI44HgwA/T3mZ0M8IsvI/AAAAAAAABu8/Vn1gic1GUdo/s1600/gotopdbstyle5.png) no-repeat left -51px;
 	width:51px;
 	height:51px;
 	display:block;
@@ -459,4 +459,28 @@ p.note {
     -webkit-border-radius: 4px;
        -moz-border-radius: 4px;
             border-radius: 4px;
+}
+
+
+#navegador li {
+  display:inline;
+}
+#navegador ul {
+  list-style:none;
+  margin:0;
+  padding:0;
+  border-radius: 50px;
+}
+#navegador a {
+  background:#dddddd ;
+  border:2px solid #dddddd ;
+  padding:0.2cm;
+  text-decoration:none;
+  border-radius: 50px;
+}
+#navegador a:hover {
+  background:#C0C0C0  ;
+  border:2px solid #C0C0C0  ;
+  text-decoration:underline;
+  border-radius: 50px;
 }

@@ -3,14 +3,16 @@
 <h3><%= I18n.t("general.index") %></h3>
 
 <!--Indice -->
-<ol class="table-of-contents">
+<div id="navegador">
+ <center><ul>
 	<li><a href="#meus_dados_inner"><%= I18n.t("configuracoes.index.table_of_contents.meus_dados") %></a></li>
 	<li><a href="#lista_produtos_inner"><%= I18n.t("configuracoes.index.table_of_contents.lista_produtos") %></a></li>
 	<li><a href="#valores_vencidos_inner"><%= I18n.t("configuracoes.index.table_of_contents.valores_vencidos") %></a></li>
 	<li><a href="#relacionar_produtos_inner"><%= I18n.t("configuracoes.index.table_of_contents.relacionar_produtos") %></a></li>
 	<li><a href="#valorizar_produtos_inner"><%= I18n.t("configuracoes.index.table_of_contents.valorizar_produtos") %></a></li>
 	<li><a href="#convidar_comprador_inner"><%= I18n.t("configuracoes.index.table_of_contents.convidar_comprador") %></a></li>
-</ol>
+  </ul></center>
+</div>
 
 		
 <!-- meus_dados  -->
@@ -19,10 +21,10 @@
 <div class="row-fluid">
 	<center><img src="/img/configuracoes/configuracoes_meus_dados.jpg" alt="Configurações Produtos Vencidos" /></center>
 	<p align="right" style="font-weight:bold;"><%= I18n.t("configuracoes.index.meus_dados.item_1") %></p>
-	<p> <%= I18n.t("configuracoes.index.meus_dados.item_2") %></p>
+	<p style="text-indent: 3em; text-align: justify;"> <%= I18n.t("configuracoes.index.meus_dados.item_2") %></p>
 	<center><img src="/img/configuracoes/meus_dados.jpg" alt="Produtos Vencidos" /></center>
 	<p align="right" style="font-weight:bold;"><%= I18n.t("configuracoes.index.meus_dados.item_3") %></p>
-	<p> <%= I18n.t("configuracoes.index.meus_dados.item_4") %></p>
+	<p style="text-indent: 3em; text-align: justify;"> <%= I18n.t("configuracoes.index.meus_dados.item_4") %></p>
 </div>
 
 <!-- lista_produtos -->
@@ -31,13 +33,13 @@
 <div class="row-fluid">
 	<center><img src="/img/configuracoes/configuracoes_lista_produtos.jpg" alt="Configurações Lista Produtos" /></center>
 	<p align="right" style="font-weight:bold;"><%= I18n.t("configuracoes.index.lista_produtos.item_1") %></p>
-	<p> <%= I18n.t("configuracoes.index.lista_produtos.item_2") %></p>
+	<p style="text-indent: 3em; text-align: justify;"> <%= I18n.t("configuracoes.index.lista_produtos.item_2") %></p>
 	<center><img src="/img/configuracoes/lista_produtos.jpg" alt="Lista Produtos" /></center>
 	<p align="right" style="font-weight:bold;"><%= I18n.t("configuracoes.index.lista_produtos.item_3") %></p>
-	<p> <%= I18n.t("configuracoes.index.lista_produtos.item_4") %></p>
+	<p style="text-indent: 3em; text-align: justify;"><%= I18n.t("configuracoes.index.lista_produtos.item_4") %></p>
 	<center><img src="/img/configuracoes/lista_produtos2.jpg" alt="Lista Vendidos 2" /></center>
 	<p align="right" style="font-weight:bold;"><%= I18n.t("configuracoes.index.lista_produtos.item_3") %></p>
-	<p> <%= I18n.t("configuracoes.index.lista_produtos.item_4") %></p>
+	<p style="text-indent: 3em; text-align: justify;"> <%= I18n.t("configuracoes.index.lista_produtos.item_4") %></p>
 </div>
 
 
@@ -47,10 +49,10 @@
 <div class="row-fluid">
 	<center><img src="/img/configuracoes/configuracoes_valores_vencidos.jpg" alt="Configurações Valores Vencidos" /></center>
 	<p align="right" style="font-weight:bold;"><%= I18n.t("configuracoes.index.valores_vencidos.item_1") %></p>
-	<p> <%= I18n.t("configuracoes.index.valores_vencidos.item_2") %></p>
+	<p style="text-indent: 3em; text-align: justify;"> <%= I18n.t("configuracoes.index.valores_vencidos.item_2") %></p>
 	<center><img src="/img/configuracoes/valores_vencidos.jpg" alt="Valores Vencidos" /></center>
 	<p align="right" style="font-weight:bold;"><%= I18n.t("configuracoes.index.valores_vencidos.item_3") %></p>
-	<p> <%= I18n.t("configuracoes.index.valores_vencidos.item_4") %></p>
+	<p style="text-indent: 3em; text-align: justify;"> <%= I18n.t("configuracoes.index.valores_vencidos.item_4") %></p>
 </div>
 
 
@@ -60,13 +62,13 @@
 <div class="row-fluid">
 	<center><img src="/img/configuracoes/configuracoes_relacionar_produtos.jpg" alt="Configurações Relacionar Produtos" /></center>
 	<p align="right" style="font-weight:bold;"><%= I18n.t("configuracoes.index.relacionar_produtos.item_1") %></p>
-	<p> <%= I18n.t("configuracoes.index.relacionar_produtos.item_2") %></p>
+	<p style="text-indent: 3em; text-align: justify;"> <%= I18n.t("configuracoes.index.relacionar_produtos.item_2") %></p>
 	<center><img src="/img/configuracoes/relacionar_produtos.jpg" alt="Relacionar Produtos" /></center>
 	<p align="right" style="font-weight:bold;"><%= I18n.t("configuracoes.index.relacionar_produtos.item_3") %></p>
-	<p> <%= I18n.t("configuracoes.index.relacionar_produtos.item_4") %></p>
+	<p style="text-indent: 3em; text-align: justify;"> <%= I18n.t("configuracoes.index.relacionar_produtos.item_4") %></p>
 	<center><img src="/img/configuracoes/relacionar_produtos2.jpg" alt="Relacionar Produtos 2" /></center>
 	<p align="right" style="font-weight:bold;"><%= I18n.t("configuracoes.index.relacionar_produtos.item_5") %></p>
-	<p> <%= I18n.t("configuracoes.index.relacionar_produtos.item_6") %></p>
+	<p style="text-indent: 3em; text-align: justify;"> <%= I18n.t("configuracoes.index.relacionar_produtos.item_6") %></p>
 </div>
 
 
@@ -76,13 +78,13 @@
 <div class="row-fluid">
 	<center><img src="/img/configuracoes/configuracoes_valorizar_produtos.jpg" alt="Configurações Valorizar Produtos" /></center>
 	<p align="right" style="font-weight:bold;"><%= I18n.t("configuracoes.index.valorizar_produtos.item_1") %></p>
-	<p> <%= I18n.t("configuracoes.index.valorizar_produtos.item_2") %></p>
+	<p style="text-indent: 3em; text-align: justify;"> <%= I18n.t("configuracoes.index.valorizar_produtos.item_2") %></p>
 	<center><img src="/img/configuracoes/valorizar_produtos.jpg" alt="Valorizar Produtos" /></center>
 	<p align="right" style="font-weight:bold;"><%= I18n.t("configuracoes.index.valorizar_produtos.item_3") %></p>
-	<p> <%= I18n.t("configuracoes.index.valorizar_produtos.item_4") %></p>	<center>
+	<p style="text-indent: 3em; text-align: justify;"> <%= I18n.t("configuracoes.index.valorizar_produtos.item_4") %></p>	<center>
 	<img src="/img/configuracoes/valorizar_produtos2.jpg" alt="Valorizar Produtos" /></center>
 	<p align="right" style="font-weight:bold;"><%= I18n.t("configuracoes.index.valorizar_produtos.item_5") %></p>
-	<p> <%= I18n.t("configuracoes.index.valorizar_produtos.item_6") %></p>
+	<p style="text-indent: 3em; text-align: justify;"> <%= I18n.t("configuracoes.index.valorizar_produtos.item_6") %></p>
 </div>
 
 
@@ -92,10 +94,10 @@
 <div class="row-fluid">
 	<center><img src="/img/configuracoes/configuracoes_convidar_comprador.jpg" alt="Configurações Convidar Comprador" /></center>
 	<p align="right" style="font-weight:bold;"><%= I18n.t("configuracoes.index.convidar_comprador.item_1") %></p>
-	<p> <%= I18n.t("configuracoes.index.convidar_comprador.item_2") %></p>
+	<p style="text-indent: 3em; text-align: justify;"> <%= I18n.t("configuracoes.index.convidar_comprador.item_2") %></p>
 	<center><img src="/img/configuracoes/convidar_comprador.jpg" alt="Convidar Comprador" /></center>
 	<p align="right" style="font-weight:bold;"><%= I18n.t("configuracoes.index.convidar_comprador.item_3") %></p>
-	<p> <%= I18n.t("configuracoes.index.convidar_comprador.item_4") %></p>
+	<p style="text-indent: 3em; text-align: justify;"> <%= I18n.t("configuracoes.index.convidar_comprador.item_4") %></p>
 </div>
 
 
