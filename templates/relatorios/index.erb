@@ -1,7 +1,6 @@
 <center><h1><%= I18n.t("relatorios.index.title") %></h1></center>
 <p class="more-info"><%= I18n.t("general.updated_at", :date => "06/03/2013") %></p>
 <h3><%= I18n.t("general.index") %></h3>
-
 <!--Indice -->
 <div id="navegador">
  	<center><ul>
@@ -10,10 +9,7 @@
 	<li><a href="#top_compradores_inner"><%= I18n.t("relatorios.index.table_of_contents.top_compradores") %></a></li>
 	<li><a href="#top_produtos_inner"><%= I18n.t("relatorios.index.table_of_contents.top_produtos") %></a></li>
 </ul></center>
-</div>
-
-		
-		
+</div>	
 <!-- produtos_vencidos  -->
 <div id ="produtos_vencidos" > &nbsp </div>
 <h2 id="produtos_vencidos_inner"><%= I18n.t("relatorios.index.table_of_contents.produtos_vencidos") %></h2>
@@ -25,7 +21,6 @@
 	<p align="right" style="font-weight:bold;"><%= I18n.t("relatorios.index.produtos_vencidos.item_3") %></p>
 	<p style="text-indent: 3em; text-align: justify;"> <%= I18n.t("relatorios.index.produtos_vencidos.item_4") %></p>
 </div>
-
 <!-- produtos_vendidos -->
 <div id ="produtos_vendidos" > &nbsp </div>
 <h2 id="produtos_vendidos_inner"><%= I18n.t("relatorios.index.table_of_contents.produtos_vendidos") %></h2>
@@ -37,8 +32,6 @@
 	<p align="right" style="font-weight:bold;"><%= I18n.t("relatorios.index.produtos_vendidos.item_3") %></p>
 	<p style="text-indent: 3em; text-align: justify;"> <%= I18n.t("relatorios.index.produtos_vendidos.item_4") %></p>
 </div>
-
-
 <!-- top_compradores -->
 <div id ="top_compradores" > &nbsp </div>
 <h2 id="top_compradores_inner"><%= I18n.t("relatorios.index.table_of_contents.top_compradores") %></h2>
@@ -50,8 +43,6 @@
 	<p align="right" style="font-weight:bold;"><%= I18n.t("relatorios.index.top_compradores.item_3") %></p>
 	<p style="text-indent: 3em; text-align: justify;"> <%= I18n.t("relatorios.index.top_compradores.item_4") %></p>
 </div>
-
-
 <!-- top_produtos -->
 <div id ="top_produtos" > &nbsp </div>
 <h2 id="top_produtos_inner"><%= I18n.t("relatorios.index.table_of_contents.top_produtos") %></h2>
@@ -63,9 +54,6 @@
 	<p align="right" style="font-weight:bold;"><%= I18n.t("relatorios.index.top_produtos.item_3") %></p>
 	<p style="text-indent: 3em; text-align: justify;"> <%= I18n.t("relatorios.index.top_produtos.item_4") %></p>
 </div>
-
-
-
 <!--Botão proximo -->
 <ul class="pager">
   <li class="previous"><%= link_to("&larr; " + I18n.t("orcamentos.index.title"), "orcamentos") %></li>

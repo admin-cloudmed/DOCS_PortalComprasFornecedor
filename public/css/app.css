@@ -117,7 +117,7 @@ ol.table-of-contents{
 }
 
 
-.pager { margin: 40px 0; }
+.pager { margin: 40px 0; font-weight:bold}
 
 span.code {
 	font-family: courier;
@@ -321,9 +321,9 @@ h2.command-header{
 
 /* Footer */
 .footer {
-  padding: 70px 0;
-  margin-top: 70px;
-  border-top: 1px solid #e5e5e5;
+  padding: 5px 0;
+  margin-top: 0px;
+  border-top: 3px solid #e5e5e5;
   background-color: #f5f5f5;
 }
 .footer p {
@@ -435,9 +435,9 @@ h2.command-header{
 	height:51px;
 	border:none;
 	text-indent:-999px;
-	background:url(http://1.bp.blogspot.com/-6sXpI44HgwA/T3mZ0M8IsvI/AAAAAAAABu8/Vn1gic1GUdo/s1600/gotopdbstyle5.png) no-repeat left top;}
+	background:url(http://lab.mattvarone.com/projects/jquery/totop/img/ui.totop.png) no-repeat left top;}
 #toTopHover {
-	background:url(http://1.bp.blogspot.com/-6sXpI44HgwA/T3mZ0M8IsvI/AAAAAAAABu8/Vn1gic1GUdo/s1600/gotopdbstyle5.png) no-repeat left -51px;
+	background:url(http://lab.mattvarone.com/projects/jquery/totop/img/ui.totop.png) no-repeat left -51px;
 	width:51px;
 	height:51px;
 	display:block;
@@ -462,6 +462,7 @@ p.note {
 }
 
 
+
 #navegador li {
   display:inline;
 }
@@ -472,15 +473,16 @@ p.note {
   border-radius: 50px;
 }
 #navegador a {
+  font-weight:bold;
   background:#dddddd ;
-  border:2px solid #dddddd ;
-  padding:0.2cm;
+  border:2px solid #BDBDBD ;
+  padding:0.1cm;
   text-decoration:none;
-  border-radius: 50px;
+  border-radius: 7px;
 }
 #navegador a:hover {
+  font-weight:bold;
   background:#C0C0C0  ;
-  border:2px solid #C0C0C0  ;
-  text-decoration:underline;
-  border-radius: 50px;
+  border:2px solid black ;
+  border-radius:7px;
 }
