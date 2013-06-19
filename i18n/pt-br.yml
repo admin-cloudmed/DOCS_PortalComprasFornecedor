@@ -135,24 +135,10 @@
         top_produtos: "Top Produtos"
       produtos_vencidos:
         item_1: "Menu > Relatórios > Produtos Vencidos"
-        item_2: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap i"
+        item_2: "Aqui temos o relatório de produtos vencidos, aqui você consegue ter o controle de todos os produtos que tem o código Anvisa vencido veja:"
         item_3: "Relatório Produtos Vencidos"
-        item_4: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap i"
-      produtos_vendidos:
-        item_1: "Menu > Relatórios > Produtos Vendidos"
-        item_2: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
-        item_3: "Relatório Produtos Vendidos"
-        item_4: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap i"
-      top_compradores:
-        item_1: "Menu > Relatórios > Top Compradores"
-        item_2: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
-        item_3: "Relatório Top Compradores"
-        item_4: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap i"
-      top_produtos:
-        item_1: "Menu > Relatórios > Top Produtos"
-        item_2: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
-        item_3: "Relatório Top Produtos"
-        item_4: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap i"
+        item_4: "Repare que o sistema mostra uma lista bem simples e prática para que você veja quais são os produtos fornecidos que estão com o código anvisa vencido pelo Ministério da Saúde. Veja também que acima da tela o sistema te oferece dois campos para pesquisa que facilitam sua busca."
+        item_5: "Não é somente este relatório que o Portal de Compras oferece, entre em contato com um de nossos representantes para consultar um de nossos pacotes que incluem mais relatórios comercial@cloudmed.io"
   configuracoes:
    index:
       title: "Configurações"
