@@ -45,7 +45,7 @@
         paragraph_1: "Nossa solução está no mercado há cinco anos, sendo atualmente utilizada pela Unimed Intrafederativa Nordeste Paulista e suas singulares, trabalhando na mais alta transparência, segurança e facilidade. Potenciais forças que podem utilizar nossa aplicação, são empresas como:"
         item_1: "Operadores de Saúde;"
         item_2: "Hospitais;"
-		item_3: "Fornecedores de materiais OPME;"
+        item_3: "Fornecedores de materiais OPME;"
         item_4: "Clínicas Cirurgicas;"
         item_5: "Todo seguimento de empresas que lidam com cotações de materiais de Orteses, Próteses e Materiais Especiais."
   understanding_the_system:
@@ -59,7 +59,7 @@
       welcome:
         item_1: "Olá, bem vindo ao Portal de Compras da CloudMed! Iniciaremos agora, um passeio pelo sistema e todas as suas telas, entendendo todos seus processos e por fim suas funcionalidades. Fique a vontade e qualquer dúvida entre em contato conosco!"
       dashboard:
-        item_1: "Abaixo temos nosso Dashboard, ou se preferir nosso "Painel de Controle"! Essa é a primeira visualização que você terá toda vez que entrar no Portal de Compras. Aqui fica reunido de forma simples e objetiva todas as informações mais relevantes do sistema de acordo com a sua movimentação e com o perfil de seu usuário. Perceba que na parte superior direita da tela existe um campo de busca: nele é possível buscar qualquer informação digitando somente uma palavra ou frase. Dependendo do filtro que você digitar, o sistema te levará diretamente à esta informação ou mostrará uma lista de registros encontrados. Abuse desta funcionalidade! Nós a desenvolvemos para agilizar a busca de informações de nossos usuários!"
+        item_1: "Abaixo temos nosso Dashboard, ou se preferir nosso 'Painel de Controle'! Essa é a primeira visualização que você terá toda vez que entrar no Portal de Compras. Aqui fica reunido de forma simples e objetiva todas as informações mais relevantes do sistema de acordo com a sua movimentação e com o perfil de seu usuário. Perceba que na parte superior direita da tela existe um campo de busca: nele é possível buscar qualquer informação digitando somente uma palavra ou frase. Dependendo do filtro que você digitar, o sistema te levará diretamente à esta informação ou mostrará uma lista de registros encontrados. Abuse desta funcionalidade! Nós a desenvolvemos para agilizar a busca de informações de nossos usuários!"
         item_2: "Dashboard"
       mural:
         item_1: "Abaixo apresentamos nosso mural. Nele você visualiza as publicações feitas pela Cloudmed, como informações úteis aos usuários, dicas e alertas. Dessa forma ser informado fica rápido e prático!"
@@ -167,10 +167,10 @@
         item_1: "Menu > Configurações > Valores Vencidos"
         item_2: "No Portal de Compras, além de informar os valores de seus produtos, você também consegue adicionar um prazo de validade à este preço. Assim, manter o controle de suas ofertas fica fácil e evita que você participe de cotações com preços desatualizados. Veja abaixo um exemplo desta tela:"
         item_3: "Valores Vencidos"
-        item_4: "Clicando no "lápis" ao lado esquerdo do produto, perceba que o sistema liberará os campos para que você consiga fazer a atualização tanto do valor quanto de sua data de validade. Assim, ao finalizar clicando no botão de "ok" (۷) você atualiza o preço de seu produto deixando-o disponível para cotações futuras. Simples e fácil!"
+        item_4: "Clicando no 'lápis' ao lado esquerdo do produto, perceba que o sistema liberará os campos para que você consiga fazer a atualização tanto do valor quanto de sua data de validade. Assim, ao finalizar clicando no botão de 'ok' (۷) você atualiza o preço de seu produto deixando-o disponível para cotações futuras. Simples e fácil!"
       relacionar_produtos:
         item_1: "Menu > Configurações > Relacionar Produtos"
-        item_2: "O Portal de Compras conta com mais de 6 mil produtos cadastrados em sua base de dados. Isso facilita o trabalho de cadastro e manutenção das informações dos produtos por parte dos fornecedores. Assim, a principal tarefa do fornecedor é informar (relacionar) os produtos que fornece. Isso faz com que fornecedores não participem de orçamentos que possuem produtos fora de sua escala de distribuição, e mantém o controle da "amarração" orçamento/fornecedor. Veja abaixo que para relacionar um produto primeiro você deve pesquisá-lo informando algum filtro de acordo com os campos disponibilizados para busca:"
+        item_2: "O Portal de Compras conta com mais de 6 mil produtos cadastrados em sua base de dados. Isso facilita o trabalho de cadastro e manutenção das informações dos produtos por parte dos fornecedores. Assim, a principal tarefa do fornecedor é informar (relacionar) os produtos que fornece. Isso faz com que fornecedores não participem de orçamentos que possuem produtos fora de sua escala de distribuição, e mantém o controle da 'amarração' orçamento/fornecedor. Veja abaixo que para relacionar um produto primeiro você deve pesquisá-lo informando algum filtro de acordo com os campos disponibilizados para busca:"
         item_3: "Relacionar Produtos"
         item_4: "Abaixo você vê o resultado de uma pesquisa de produtos à serem relacionados. Para relacionar um ou mais produtos, basta checá-los na caixinha à esquerda, e para finalizar, clique em 'Adicionar produtos selecionados'"
         item_5: "Produtos relacionados/ à relacionar"
@@ -178,7 +178,7 @@
         item_1: "Menu > Configurações > Valorizar Produtos"
         item_2: "Após <a href='#relacionar_produtos_inner' target='blank'>Relacionar Produtos</a> à empresa, devemos agora colocar as informações pertinentes ao produto, como preço, código anvisa e etc. Seguindo o menu acima você chega à tela que é exibida abaixo. Nela você visualiza todos os produtos que relacionou anteriormente e consegue editar os dados que já estão pré-definidos no sistema pelo padrao do mercado. Veja:"
         item_3: "Lista Produtos"
-        item_4: "Clicando no "lápis" a esquerda do produto, a tela abaixo é exibida. Veja que nela ficam disponibilizados os seguintes campos para edição (valor negociado, valor de mercado, validade do valor, código Anvisa, validade do código anvisa e marca). Preencha-os corretamente e clique em 'Atualizar'. Agora é só ficar de olho em <a href='#valores_vencidos_inner' target='blank'>Valores Vencidos</a> para não deixar que nenhum produto fique com o valor vencido."
+        item_4: "Clicando no 'lápis' a esquerda do produto, a tela abaixo é exibida. Veja que nela ficam disponibilizados os seguintes campos para edição (valor negociado, valor de mercado, validade do valor, código Anvisa, validade do código anvisa e marca). Preencha-os corretamente e clique em 'Atualizar'. Agora é só ficar de olho em <a href='#valores_vencidos_inner' target='blank'>Valores Vencidos</a> para não deixar que nenhum produto fique com o valor vencido."
         item_5: "Valorizar Produtos"
       convidar_comprador:
         item_1: "Menu > Configurações > Convidar Comprador"

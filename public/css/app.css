@@ -256,8 +256,9 @@ div#banner{
        /* Sidebar */
 /* Menu */
 .accordion{
-	margin-top: 19px;
-	top:55%;
+	 /* margin-top: 19px;
+	top:55%;*/
+	position : fixed;
 }
 .accordion-group{
 	margin-bottom: 7px;
