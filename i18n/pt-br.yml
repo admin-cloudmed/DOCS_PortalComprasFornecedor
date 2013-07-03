@@ -15,7 +15,7 @@
     get_in_touch: "Entre em contato"
   portalopme:
     index:
-      title: "Visão geral do serviço Portal de Compras - Perfil de Fornecedor"
+      title: "Visão geral do serviço Portal de Compras"
       table_of_contents:
         index: "Índice"
         how_it_works: "O que é?"
