@@ -117,7 +117,7 @@ ol.table-of-contents{
 }
 
 
-.pager { margin: 40px 0; font-weight:bold}
+.pager { margin: 40px 0; font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;}
 
 span.code {
 	font-family: courier;
@@ -248,7 +248,7 @@ p.more-info {
 div#banner{
 	margin: 20px 0;
 	background: #fff url("/img/logo.png") no-repeat center;
-	border-bottom: 12px solid #ddd;
+	border-bottom: 1px solid black;
 	height: 80px;
     padding-top: 33px;
 }
@@ -267,9 +267,12 @@ div#banner{
 .accordion-heading a{
 	font-weight: bolder;
 	text-decoration: none;
-	color: #777;
+	color: black;	
+	font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+	margin-left: 15px
 }
 .accordion-inner {
+	font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
 	background-color: #eee;
 }
 .accordion-inner ul {
@@ -283,8 +286,7 @@ div#banner{
 	line-height: 30px;
 }
 .accordion-inner ul li a{
-	color: #777;
-	text-shadow: 1px 1px 1px #fff;
+	color: black;
 	font-size: 14px;
 }
 
@@ -324,15 +326,16 @@ h2.command-header{
 .footer {
   padding: 5px 0;
   margin-top: 0px;
-  border-top: 3px solid #e5e5e5;
-  background-color: #f5f5f5;
+  border-top: 1px solid black;
+  background-color: #fafafa;
 }
 .footer p {
   margin-bottom: 0;
-  color: #777;
+  margin-left: 20px;
+  color: black;
 }
 .footer-links {
-  margin: 10px 0;
+  margin: 10px;
 }
 .footer-links li {
   display: inline;
@@ -471,19 +474,19 @@ p.note {
   list-style:none;
   margin:0;
   padding:0;
-  border-radius: 50px;
+  border-radius: 50000px;
 }
 #navegador a {
   font-weight:bold;
-  background:#dddddd ;
-  border:2px solid #BDBDBD ;
+  background-color:'transparent' ;
+  border:1px solid #BDBDBD ;
   padding:0.1cm;
   text-decoration:none;
-  border-radius: 7px;
+  border-radius: 10px;
 }
 #navegador a:hover {
   font-weight:bold;
   background:#C0C0C0  ;
-  border:2px solid black ;
-  border-radius:7px;
+  border:1px solid black ;
+  border-radius:10px;
 }

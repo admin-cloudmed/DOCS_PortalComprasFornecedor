@@ -19,7 +19,7 @@
       table_of_contents:
         index: "Índice"
         how_it_works: "O que é?"
-        features_yield: "Funcionalidades e Finalidades."
+        features_yield: "Funcionalidades e Finalidades"
         who_uses: "Quem Pode Utilizar?"
       how_it_works:
         paragraph_1: "O Portal de Compras é uma solução para área de saúde no modelo <a href='http://pt.wikipedia.org/wiki/Software_como_serviço' target='blank' class='external'>SaaS</a>. É uma ferramenta que possibilita todo o acompanhamento e gestão das negociações, auditoria técnica e médica, controle de utilização do material cotado/provisionado na cirurgia, sua posterior aprovação para faturamento e possíveis divergências de materiais OPME, em lotes e em regime de leilão reverso, permitindo um maior poder de negociação, que geralmente são de alto custo."
@@ -70,9 +70,9 @@
       table_of_contents: 
         index: "Índice"
         menu_principal: "Menu Principal"
-        menu_principal_orcamentos: "Menu Principal > Orçamentos"
-        menu_principal_relatorios: "Menu Principal > Relatórios"
-        menu_principal_configuracoes: "Menu Principal > Configurações"
+        menu_principal_orcamentos: "Orçamentos"
+        menu_principal_relatorios: "Relatórios"
+        menu_principal_configuracoes: "Configurações"
       menu_principal:
         item_1: "Abaixo você vê menu principal do sistema, ele sempre estará presente e visível no topo do sistema, disponibilizando as ações para o usuário de acordo com suas permissões previamente definidas."
         item_2: "Menu Principal"
