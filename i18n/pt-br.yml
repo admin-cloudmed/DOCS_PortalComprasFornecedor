@@ -181,7 +181,7 @@
         item_5: "Produtos relacionados/ à relacionar"
       valorizar_produtos:
         item_1: "Menu > Configurações > Valorizar Produtos"
-        item_2: "Após <a href='#relacionar_produtos_inner' target='blank'>Relacionar Produtos</a> à empresa, devemos agora colocar as informações pertinentes ao produto, como preço, código anvisa e etc. Seguindo o menu acima você chega à tela que é exibida abaixo. Nela você visualiza todos os produtos que relacionou anteriormente e consegue editar os dados que já estão pré-definidos no sistema pelo padrao do mercado. Veja:"
+        item_2: "Após <a href='#relacionar_produtos_inner' target='blank'>Relacionar Produtos</a> à empresa, devemos agora colocar as informações pertinentes ao produto, como preço, código anvisa e etc. Seguindo o menu acima você chega à tela que é exibida abaixo. Nela você visualiza todos os produtos que relacionou anteriormente e consegue editar os dados que já estão pré-definidos no sistema pelo padrão do mercado. Veja:"
         item_3: "Lista Produtos"
         item_4: "Clicando no 'lápis' a esquerda do produto, a tela abaixo é exibida. Veja que nela ficam disponibilizados os seguintes campos para edição (valor negociado, valor de mercado, validade do valor, código Anvisa, validade do código anvisa e marca). Preencha-os corretamente e clique em 'Atualizar'. Agora é só ficar de olho em <a href='#valores_vencidos_inner' target='blank'>Valores Vencidos</a> para não deixar que nenhum produto fique com o valor vencido."
         item_5: "Valorizar Produtos"
