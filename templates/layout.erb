@@ -15,6 +15,7 @@
 		<link href="/css/app.css" rel="stylesheet">
 	</head>
 
+
 	<!-- Top Menu   -->
 	<body>
 		<div class="navbar navbar-inverse navbar-fixed-top">
@@ -60,7 +61,26 @@
 		  <p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<a href="mailto:contato@cloudmed.io"><%= I18n.t("footer.get_in_touch") %></a></p>
 		</div>
 	</footer>
-
+	
+	
+	<!--ZendeskSupport -->
+	<script type="text/javascript" src="//assets.zendesk.com/external/zenbox/v2.6/zenbox.js"></script>
+	<style type="text/css" media="screen, projection">
+	  @import url(//assets.zendesk.com/external/zenbox/v2.6/zenbox.css);
+	</style>
+	<script type="text/javascript">
+	  if (typeof(Zenbox) !== "undefined") {
+		Zenbox.init({
+		  dropboxID:   "20202428",
+		  url:         "https://planobehelpdesk.zendesk.com",
+		  tabTooltip:  "Suporte",
+		  tabImageURL: "https://assets.zendesk.com/external/zenbox/images/tab_pt_support_right.png",
+		  tabColor:    "black",
+		  tabPosition: "Right"
+		});
+	  }
+	</script>
+		  
 	  
 	  <script src="/js/jquery.min.js"></script>
 	  <script src="/js/bootstrap.min.js"></script>
