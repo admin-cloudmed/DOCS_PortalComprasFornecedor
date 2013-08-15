@@ -1,7 +1,7 @@
 "pt-BR":
   main_menu:
     home: "Início"
-    docs: "Documentação Fornecedor"
+    docs: "Documentação"
     get_in_touch: "Entre em contato"
   errors:
     not_found:
@@ -15,11 +15,11 @@
     get_in_touch: "Entre em contato"
   portalopme:
     index:
-      title: "Visão geral do serviço Portal de Compras"
+      title: "Visão geral do serviço Portal de Compras - Perfil de Fornecedor"
       table_of_contents:
         index: "Índice"
         how_it_works: "O que é?"
-        features_yield: "Funcionalidades e Finalidades"
+        features_yield: "Funcionalidades e Finalidades."
         who_uses: "Quem Pode Utilizar?"
       how_it_works:
         paragraph_1: "O Portal de Compras é uma solução para área de saúde no modelo <a href='http://pt.wikipedia.org/wiki/Software_como_serviço' target='blank' class='external'>SaaS</a>. É uma ferramenta que possibilita todo o acompanhamento e gestão das negociações, auditoria técnica e médica, controle de utilização do material cotado/provisionado na cirurgia, sua posterior aprovação para faturamento e possíveis divergências de materiais OPME, em lotes e em regime de leilão reverso, permitindo um maior poder de negociação, que geralmente são de alto custo."
@@ -57,9 +57,9 @@
         dashboard: "Dashboard"
         mural: "Mural"
       welcome:
-        item_1: "Olá, bem vindo ao Portal de Compras da CloudMed! Iniciaremos agora, um passeio pelo sistema e todas as suas telas, entendendo todos seus processos e suas funcionalidades. Fique a vontade e qualquer dúvida entre em contato conosco!"
+        item_1: "Olá, bem vindo ao Portal de Compras da CloudMed! Iniciaremos agora, um passeio pelo sistema e todas as suas telas, entendendo todos seus processos e por fim suas funcionalidades. Fique a vontade e qualquer dúvida entre em contato conosco!"
       dashboard:
-        item_1: "Abaixo temos nosso Dashboard, ou se preferir nosso 'Painel de Controle'! Essa é a primeira visualização que você terá toda vez que entrar no Portal de Compras. Aqui fica reunido de forma simples e objetiva todas as informações relevantes do sistema de acordo com a movimentação e com o perfil do usuário que está logado. Perceba que na parte superior direita da tela existe um campo de busca: nele é possível buscar qualquer informação do sistema digitando somente uma palavra ou frase. Dependendo do filtro que você digitar, o sistema te levará diretamente à esta informação ou mostrará uma lista de registros encontrados. Abuse desta funcionalidade! Nós a desenvolvemos ela para agilizar a busca de informações de nossos usuários!"
+        item_1: "Abaixo temos nosso Dashboard, ou se preferir nosso 'Painel de Controle'! Essa é a primeira visualização que você terá toda vez que entrar no Portal de Compras. Aqui fica reunido de forma simples e objetiva todas as informações mais relevantes do sistema de acordo com a sua movimentação e com o perfil de seu usuário. Perceba que na parte superior direita da tela existe um campo de busca: nele é possível buscar qualquer informação digitando somente uma palavra ou frase. Dependendo do filtro que você digitar, o sistema te levará diretamente à esta informação ou mostrará uma lista de registros encontrados. Abuse desta funcionalidade! Nós a desenvolvemos para agilizar a busca de informações de nossos usuários!"
         item_2: "Dashboard"
         item_3: "<a href='orcamentos#index' target='blank'>Orçamentos</a>"
         item_4: "<a href='orcamentos#notas_fiscais' target='blank'>Aguardando Notas Fiscais</a>"
@@ -67,7 +67,7 @@
         item_6: "<a href='orcamentos#pendentes' target='blank'>Pendentes Fornecedor</a>"
         item_7: "Veja abaixo onde cada parte do dashboard te leva de maneira fácil e prática:"
       mural:
-        item_1: "Abaixo apresentamos nosso mural. Nele você visualiza as publicações feitas por nós da Cloudmed, informações úteis aos usuários, dicas e alertas sempre aparecerão por aqui para que você fique por dentro das novidades que ocorrem. Dessa forma, ser informado fica rápido e prático!"
+        item_1: "Abaixo apresentamos nosso mural. Nele você visualiza as publicações feitas pela Cloudmed, como informações úteis aos usuários, dicas e alertas. Dessa forma ser informado fica rápido e prático!"
         item_2: "Mural"
   menu_principal:
    index:
@@ -75,14 +75,14 @@
       table_of_contents: 
         index: "Índice"
         menu_principal: "Menu Principal"
-        menu_principal_orcamentos: "Orçamentos"
-        menu_principal_relatorios: "Relatórios"
-        menu_principal_configuracoes: "Configurações"
+        menu_principal_orcamentos: "Menu Principal > Orçamentos"
+        menu_principal_relatorios: "Menu Principal > Relatórios"
+        menu_principal_configuracoes: "Menu Principal > Configurações"
       menu_principal:
-        item_1: "Abaixo você vê menu principal do sistema, ele sempre estará presente e visível no topo do sistema, disponibilizando as ações para o usuário de acordo com suas permissões que são previamente definidas."
+        item_1: "Abaixo você vê menu principal do sistema, ele sempre estará presente e visível no topo do sistema, disponibilizando as ações para o usuário de acordo com suas permissões previamente definidas."
         item_2: "Menu Principal"
       menu_principal_orcamentos:
-        item_1: "Seguindo o menu Orçamentos, o sistema te oferecerá algumas opções para acompanhar os orçamentos e seus respectivos status:"
+        item_1: "Seguindo o menu Orçamentos, o sistema te oferecerá algumas opções para acompanhar os orçamentos em seus respectivos status:"
         item_2: "Produtos Vencidos"
         item_3: "Produtos Vendidos"
         item_4: "Top Compradores"
@@ -95,7 +95,7 @@
         item_5: "Top Produtos"
         item_6: "Menu Principal > Relatórios"
       menu_principal_configuracoes:
-        item_1: "Além das configurações básicas para o funcionamento do sistema, o menu Configurações te leva para o cadastro de produtos, onde sempre será necessário atualizar as informações para ciência de seus compradores. Veja as opções:"
+        item_1: "Além das configurações básicas para o funcionamento do sistema, o menu Configurações te leva para o cadastro de produtos, onde sempre será necessário atualizar as informações para ciência de seus compradores. Seguem as opções:"
         item_2: "Meus Dados"
         item_3: "Lista de Produtos"
         item_4: "Valores Vencidos"
@@ -113,7 +113,7 @@
         pendentes: "Pendente Fornecedor"
       faturados:
         item_1: "Menu > Orçamentos > Faturados/10 dias"
-        item_2: "Em 'Orçamentos > Faturados 10 dias' encontramos todos os orçamentos que foram faturados pelos seus compradores nos últimos 10 dias. Na tela abaixo, você visualiza um exemplo com todos os orçamentos que estão neste status e algumas de suas informações. Para mais detalhes do orçamento, basta clicar em seu número (link) que aparece sempre a esqueda de cada orçamento listado."
+        item_2: "Em 'Orçamentos > Faturados 10 dias' encontramos todos os orçamentos que foram faturados pelos seus compradores nos últimos 10 dias. Na tela abaixo você visualiza um exemplo com todos os orçamentos que estão neste status e algumas de suas informações. Para mais detalhes do orçamento, bata clicar em seu número (link) sempre a esqueda de cada orçamento listado."
         item_3: "Lista de Orçamentos Faturados/10 dias"
         item_4: "Carregando o orçamento, abaixo você tem um exemplo da tela que é exibida. Nela, conseguimos visualizar todos os dados do pedido e os produtos que foram faturados, assim, fica fácil verificar os dados para que os próximos passos sejam tomados."
         item_5: "Orçamento Faturado"
@@ -127,7 +127,7 @@
         item_7: "Anexando arquivo(NFs) a um Orçamento"
       pendentes:
         item_1: "Menu > Orçamentos > Pendentes Fornecedor"
-        item_2: "É aqui onde a atenção ao sistema deve se concentrar pelos fornecedores. Toda vez que um comprador fizer uma cotação de produtos, os fornecedores receberão um e-mail com a notificação e é para essa tela abaixo que eles serão redirecionados. Todos os produtos que foram solicitados pelos seus compradores serão listados para que seja valorizados. Veja como é essa solicitação abaixo:"
+        item_2: "É aqui onde a atenção ao sistema deve se concentrar, pois toda vez que um comprador fizer uma cotação de produtos você receberá um e-mail de notificação. É aqui que você visualizará todos os produtos que foram cotados pelos seus compradores, como pode-se ver abaixo:"
         item_3: "Orçamentos Pendentes"
         item_4: "Sendo bastante intuitiva, a única ação a ser feita nesta tela é a valorização do produto cotado e o envio dessa informação de volta ao comprador. Se você não quiser participar da cotação, basta clicar em 'Não Participar', assim o produto não aparecerá mais em sua lista."
   relatorios:
@@ -172,18 +172,18 @@
         item_1: "Menu > Configurações > Valores Vencidos"
         item_2: "No Portal de Compras, além de informar os valores de seus produtos, você também consegue adicionar um prazo de validade à este preço. Assim, manter o controle de suas ofertas fica fácil e evita que você participe de cotações com preços desatualizados. Veja abaixo um exemplo desta tela:"
         item_3: "Valores Vencidos"
-        item_4: "Clicando no 'lápis' ao lado esquerdo do produto, perceba que o sistema liberará os campos para que você consiga fazer a atualização tanto do valor quanto de sua data de validade. Assim, ao finalizar clicando no botão de 'ok' (۷) você atualiza o preço de seu produto deixando-o disponível para cotações futuras. Simples e fácil!"
+        item_4: "Clicando no "lápis" ao lado esquerdo do produto, perceba que o sistema liberará os campos para que você consiga fazer a atualização tanto do valor quanto de sua data de validade. Assim, ao finalizar clicando no botão de "ok" (۷) você atualiza o preço de seu produto deixando-o disponível para cotações futuras. Simples e fácil!"
       relacionar_produtos:
         item_1: "Menu > Configurações > Relacionar Produtos"
-        item_2: "O Portal de Compras conta com mais de 6 mil produtos cadastrados em sua base de dados. Isso facilita o trabalho de cadastro e manutenção das informações dos produtos por parte dos fornecedores. Assim, a principal tarefa do fornecedor é informar (relacionar) os produtos que fornece. Isso faz com que fornecedores não participem de orçamentos que possuem produtos fora de sua escala de distribuição, e mantém o controle da 'amarração' orçamento/fornecedor. Veja abaixo que para relacionar um produto primeiro você deve pesquisá-lo informando algum filtro de acordo com os campos disponibilizados para busca:"
+        item_2: "O Portal de Compras conta com mais de 6 mil produtos cadastrados em sua base de dados. Isso facilita o trabalho de cadastro e manutenção das informações dos produtos por parte dos fornecedores. Assim, a principal tarefa do fornecedor é informar (relacionar) os produtos que fornece. Isso faz com que fornecedores não participem de orçamentos que possuem produtos fora de sua escala de distribuição, e mantém o controle da "amarração" orçamento/fornecedor. Veja abaixo que para relacionar um produto primeiro você deve pesquisá-lo informando algum filtro de acordo com os campos disponibilizados para busca:"
         item_3: "Relacionar Produtos"
         item_4: "Abaixo você vê o resultado de uma pesquisa de produtos à serem relacionados. Para relacionar um ou mais produtos, basta checá-los na caixinha à esquerda, e para finalizar, clique em 'Adicionar produtos selecionados'"
         item_5: "Produtos relacionados/ à relacionar"
       valorizar_produtos:
         item_1: "Menu > Configurações > Valorizar Produtos"
-        item_2: "Após <a href='#relacionar_produtos_inner' target='blank'>Relacionar Produtos</a> à empresa, devemos agora colocar as informações pertinentes ao produto, como preço, código anvisa e etc. Seguindo o menu acima você chega à tela que é exibida abaixo. Nela você visualiza todos os produtos que relacionou anteriormente e consegue editar os dados que já estão pré-definidos no sistema pelo padrão do mercado. Veja:"
+        item_2: "Após <a href='#relacionar_produtos_inner' target='blank'>Relacionar Produtos</a> à empresa, devemos agora colocar as informações pertinentes ao produto, como preço, código anvisa e etc. Seguindo o menu acima você chega à tela que é exibida abaixo. Nela você visualiza todos os produtos que relacionou anteriormente e consegue editar os dados que já estão pré-definidos no sistema pelo padrao do mercado. Veja:"
         item_3: "Lista Produtos"
-        item_4: "Clicando no 'lápis' a esquerda do produto, a tela abaixo é exibida. Veja que nela ficam disponibilizados os seguintes campos para edição (valor negociado, valor de mercado, validade do valor, código Anvisa, validade do código anvisa e marca). Preencha-os corretamente e clique em 'Atualizar'. Agora é só ficar de olho em <a href='#valores_vencidos_inner' target='blank'>Valores Vencidos</a> para não deixar que nenhum produto fique com o valor vencido."
+        item_4: "Clicando no "lápis" a esquerda do produto, a tela abaixo é exibida. Veja que nela ficam disponibilizados os seguintes campos para edição (valor negociado, valor de mercado, validade do valor, código Anvisa, validade do código anvisa e marca). Preencha-os corretamente e clique em 'Atualizar'. Agora é só ficar de olho em <a href='#valores_vencidos_inner' target='blank'>Valores Vencidos</a> para não deixar que nenhum produto fique com o valor vencido."
         item_5: "Valorizar Produtos"
       convidar_comprador:
         item_1: "Menu > Configurações > Convidar Comprador"
