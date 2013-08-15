@@ -1,7 +1,7 @@
 "pt-BR":
   main_menu:
     home: "Início"
-    docs: "Documentação"
+    docs: "Documentação Fornecedor"
     get_in_touch: "Entre em contato"
   errors:
     not_found:
@@ -63,7 +63,7 @@
         item_2: "Dashboard"
         item_3: "<a href='orcamentos#index' target='blank'>Orçamentos</a>"
         item_4: "<a href='orcamentos#notas_fiscais' target='blank'>Aguardando Notas Fiscais</a>"
-        item_5: "<a href='http://www.cloudmed.io' target='blank'>CludMed site</a>"
+        item_5: "<a href='http://www.cloudmed.io' target='blank'>CloudMed site</a>"
         item_6: "<a href='orcamentos#pendentes' target='blank'>Pendentes Fornecedor</a>"
         item_7: "Veja abaixo onde cada parte do dashboard te leva de maneira fácil e prática:"
       mural:
