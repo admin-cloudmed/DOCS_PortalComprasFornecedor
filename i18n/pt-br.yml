@@ -42,11 +42,11 @@
         feature_15: "Gestão do conhecimento e informações para planejamento e tomada de decisões;"
         feature_16: "Ampla manutenção dos itens cadastrados, visando alinhar o melhor preço e qualidade, bem como o controle de validade do código ANVISA dos materiais."
       who_uses:
-        paragraph_1: "Nossa solução está no mercado há cinco anos, sendo atualmente utilizada pela Unimed Intrafederativa Nordeste Paulista e suas singulares, trabalhando na mais alta transparência, segurança e facilidade. Potenciais forças que podem utilizar nossa aplicação, são empresas como:"
+        paragraph_1: "Nossa solução está no mercado há cinco anos, trabalhando na mais alta transparência, segurança e facilidade. Potenciais forças que podem utilizar nossa aplicação, são empresas como:"
         item_1: "Operadores de Saúde;"
         item_2: "Hospitais;"
         item_3: "Fornecedores de materiais OPME;"
-        item_4: "Clínicas Cirurgicas;"
+        item_4: "Clínicas Cirúrgicas;"
         item_5: "Todo seguimento de empresas que lidam com cotações de materiais de Orteses, Próteses e Materiais Especiais."
   understanding_the_system:
    index:
@@ -54,12 +54,13 @@
       table_of_contents:
         index: "Índice" 
         welcome: "Bem Vindo!" 
+        fluxograma: "Fluxograma do Sistema"
         dashboard: "Dashboard"
         mural: "Mural"
       welcome:
         item_1: "Olá, bem vindo ao Portal de Compras da CloudMed! Iniciaremos agora, um passeio pelo sistema e todas as suas telas, entendendo todos seus processos e por fim suas funcionalidades. Fique a vontade e qualquer dúvida entre em contato conosco!"
       dashboard:
-        item_1: "Abaixo temos nosso Dashboard, ou se preferir nosso 'Painel de Controle'! Essa é a primeira visualização que você terá toda vez que entrar no Portal de Compras. Aqui fica reunido de forma simples e objetiva todas as informações mais relevantes do sistema de acordo com a sua movimentação e com o perfil de seu usuário. Perceba que na parte superior direita da tela existe um campo de busca: nele é possível buscar qualquer informação digitando somente uma palavra ou frase. Dependendo do filtro que você digitar, o sistema te levará diretamente à esta informação ou mostrará uma lista de registros encontrados. Abuse desta funcionalidade! Nós a desenvolvemos para agilizar a busca de informações de nossos usuários!"
+        item_1: "Abaixo temos o 'Dashboard' ou se preferir nosso 'Painel de Controle'! Esta é a primeira visualização que você terá ao entrar no Portal de Compras. Reunimos aqui de forma simples e objetiva as informações mais relevantes do sistema, de acordo com a movimentação e perfil de seu usuário. Perceba que na parte superior direita da tela existe um campo de busca: nele é possível buscar qualquer informação digitando somente uma palavra ou frase. Dependendo do filtro digitado, o sistema mostrará diretamente a informação ou uma lista de registros encontrados. Abuse desta funcionalidade! Nós a desenvolvemos para agilizar a busca de informações de nossos usuários!"
         item_2: "Dashboard"
         item_3: "<a href='orcamentos#index' target='blank'>Orçamentos</a>"
         item_4: "<a href='orcamentos#notas_fiscais' target='blank'>Aguardando Notas Fiscais</a>"

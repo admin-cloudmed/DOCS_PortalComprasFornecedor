@@ -5,6 +5,7 @@
 <div id="navegador">
  <center><ul>
 	<li><a href="#welcome"><%= I18n.t("understanding_the_system.index.table_of_contents.welcome") %></a></li>
+	<li><a href="#fluxograma_inner"><%= I18n.t("understanding_the_system.index.table_of_contents.fluxograma") %></a></li>
 	<li><a href="#dashboard_inner"><%= I18n.t("understanding_the_system.index.table_of_contents.dashboard") %></a></li>
 	<li><a href="#mural_inner"><%= I18n.t("understanding_the_system.index.table_of_contents.mural") %></a></li>
   </ul></center>
@@ -15,6 +16,113 @@
 <div class="row-fluid">
 	<p style="text-indent: 3em; text-align: justify;"><%= I18n.t("understanding_the_system.index.welcome.item_1") %></p>
 </div>
+
+
+<!--Fluxograma -->
+<div id ="fluxograma" > &nbsp </div>
+<h2 id="fluxograma_inner"><%= I18n.t("understanding_the_system.index.table_of_contents.fluxograma") %></h2>
+<div class="row-fluid">
+  <br />
+  <br />
+  <div class="sitemap" >
+      <ul id="primaryNav" class="col6" style="margin-left:auto;margin-right:auto;">
+         <li>
+            <a href="/pt-BR/solicitar_opme#solicitar_opme" style="background-color:#55B238;margin-top:-20px">Novo Orçamento</a>	
+		</li>
+		 <br />
+		 <br />
+		 <li id="image" style="margin-top:-35px;margin-bottom:-5px;margin-left:-120px;width:20px;height:20px">
+         <image src="/img/fluxograma/arrow_sans_down.png" style="margin-left:25px;margin-top:-15px">
+   	     </li>
+		 <br />
+		 <br />
+         <li>
+            <label style=""> <a href="/pt-BR/orcamentos#abertos"> Aberto  </a></label>
+            <ul>
+               <li id="image" style="margin-top:-25px;margin-bottom:-9px">
+                  <image src="/img/fluxograma/arrow_sans_down.png" style="width:20px;height:20px;margin-left:25px;margin-top:-15px">
+               </li>
+               <li style="margin-left:-11%;margin-top:15px">
+                  <a href="/pt-BR/orcamentos#pendentes_fornecedor"style="background-color: #F99A00;">Pendente Fornecedor</a>
+               </li>
+            </ul>
+         </li>
+         <li id="image" style="margin-right:20px;margin-top:-15px;width:20px;height:20px">
+            <image src="/img/fluxograma/arrow_sans_right.png" style="">
+         </li>
+         <li>
+            <a href="/pt-BR/orcamentos#auditor">Pendente Auditor</a>
+            <ul>
+               <li id="image" style="margin-top:-25px;margin-bottom:10px">
+                  <image src="/img/fluxograma/arrow_sans_down.png" style="width:20px;height:20px;margin-left:25px">
+               </li>
+               <li style="margin-left:-11%">
+                  <a href=""style="background-color: #F99A00;">Não Aprovado</a>
+               </li>
+            </ul>
+         </li>
+         <li id="image" style="margin-right:20px;margin-top:-15px;width:20px;height:20px">
+            <image src="/img/fluxograma/arrow_sans_right.png" style="width:20px;height:20px">
+         </li>
+         <li>
+            <a href="/pt-BR/orcamentos#local_atendimento">Pendente Hospital</a>
+            <ul>
+               <li id="image" style="margin-top:-25px;margin-bottom:10px">
+                  <image src="/img/fluxograma/arrow_sans_down.png" style="width:20px;height:20px;margin-left:25px">
+               </li>
+               <li style="margin-left:-10%">
+                  <a href=""style="background-color: #F99A00;">Agendar c/ Fornecedor</a>
+            </ul>
+         </li>
+         <li id="image" style="margin-right:20px;margin-top:-15px;width:20px;height:20px">
+            <image src="/img/fluxograma/arrow_sans_right.png" style="width:20px;height:20px">
+         </li>
+         <li>
+            <ul>
+               <li>
+                  <label >
+                  <a href="/pt-BR/orcamentos#concluidos" style="margin-top:-30px;margin-left:-35px">Concluído</a></label>
+               </li>
+               <li id="image" style="margin-top:0px;margin-bottom:15px;margin-left:-100px">
+                  <image src="/img/fluxograma/arrow_sans_rightdown.png" style="width:20px;height:20px;margin-left:35px">
+               </li>
+               <li id="image" style="margin-bottom:20px;margin-top:-40px;margin-left:-20px">
+                  <image src="/img/fluxograma/arrow_sans_up.png" style="width:20px;height:20px;margin-left:35px;margin-top:-5px">
+               </li>
+               <li id="home" style="margin-left:-20px;margin-bottom:200px">
+                  <a href="/pt-BR/orcamentos#divergencias" style="background-color:#FB4C2F">Divergencia</a>
+               </li>
+            </ul>
+         </li>
+         <li id="image"  style="margin-right:0px;width:20px;height:20px;margin-top:-15px;">
+            <image src="/img/fluxograma/arrow_sans_right.png" style="width:20px;height:20px">
+         </li>
+         <li>
+            <ul>
+               <li style="margin-top:-30px;">
+                  <a href="/pt-BR/orcamentos#notas_fiscais">Aguardando Notas</a>
+               </li>
+               <li id="image"style="margin-left:40px;margin-top:0px;margin-bottom:10px">
+                  <image src="/img/fluxograma/arrow_sans_down.png" style="width:20px;height:20px">
+               </li>
+               <li >
+                  <a href="">Confirmar Faturamento</a>
+               </li>
+               <li id="image"style="margin-left:40px;margin-top:0px;margin-bottom:10px">
+                  <image src="/img/fluxograma/arrow_sans_down.png" style="width:20px;height:20px">
+               </li>
+               <li>
+                  <a href="/pt-BR/orcamentos#faturados"style="background-color:#55B238">Faturado</a>
+               </li>
+            </ul>
+         </li>
+      </ul>
+   </div>
+</div>
+
+
+
+
 <!--Dashboard -->
 <div id ="dashboard" > &nbsp </div>
 <h2 id="dashboard_inner"><%= I18n.t("understanding_the_system.index.table_of_contents.dashboard") %></h2>
@@ -22,15 +130,6 @@
 	<p style="text-indent: 3em; text-align: justify;"><%= I18n.t("understanding_the_system.index.dashboard.item_1") %></p>
 	<img  class="zoomh"src="/img/understanding_the_system/Dashboard.png" alt="Dashboard" />
 	<p align="right" style="font-weight:bold;"><%= I18n.t("understanding_the_system.index.dashboard.item_2") %></p>
-	<p style="text-indent: 3em; text-align: justify;"><%= I18n.t("understanding_the_system.index.dashboard.item_7") %></p>
-	<div id="navegador">
-	 <center><ul>
-		<li><%= I18n.t("understanding_the_system.index.dashboard.item_3") %></a></li>
-		<li><%= I18n.t("understanding_the_system.index.dashboard.item_4") %></a></li>
-		<li><%= I18n.t("understanding_the_system.index.dashboard.item_5") %></a></li>
-		<li><%= I18n.t("understanding_the_system.index.dashboard.item_6") %></a></li>
-	  </ul></center>
-	</div>
 </div>
 <!--Mural -->
 <div id ="mural" > &nbsp </div>
