@@ -1,10 +1,10 @@
-cloudmed/docs
+cloudmed/docsfornecedor
 ================================
+Parte integrante de cloudmed/docs
 
-Documentação e manuais dos sistemas em formato Ruby/Sinatra
-
-
-
+Documentação e manual do sistema (portalcompras.io) em formato Ruby/Sinatra 
+	
+	(Módulo Fornecedor)
 1.Instale a gem Bundler:
 gem install bundler
 
