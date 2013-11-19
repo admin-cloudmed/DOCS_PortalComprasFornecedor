@@ -1,56 +1,169 @@
-#commands {
-	margin-left: 0;
-	margin-bottom: 25px;
-}
-
-#commands li {
-	float: left;
-	list-style: none;
-	width: 250px;
-}
-
-#display { margin-top: 45px; }
-
-nav#topics {
-	margin-top: 16px;
-}
-
-a.active {
-	font-weight: bolder;
-}
-
-nav#topics p {
-	font-weight: bolder;
-	font-size: 16px;
-	margin-bottom: 6px;
-}
-
-nav#topics ul {
-	margin: 0 0 20px 15px;
-}
-
-nav#topics li {
-	list-style: none;
-	line-height: 30px;
-}
-
-html {
-	overflow-y: scroll;
-}
 
 body > .navbar {
 	font-size: 13px;
 }
 
+/*Menu Principal*/
+.containerm 
+{
+    padding: 0px;
+    width: 100%;
+}
+nav, ul, li, a  {margin: 0; padding: 0;}
+
+.toggleMenu {
+    display:  none;
+    padding: 10px 15px;
+    color: #fff;
+	background: #e8e3e3; /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(232, 227, 227, 0.95) 0%, rgba(246, 242, 242, 0.95) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(232, 227, 227, 0.95)), color-stop(100%,rgba(246, 242, 242, 0.95))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(232, 227, 227, 0.95) 0%,rgba(246, 242, 242, 0.95) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(232, 227, 227, 0.95) 0%,rgba(246, 242, 242, 0.95) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(232, 227, 227, 0.95) 0%,rgba(246, 242, 242, 0.95) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(232, 227, 227, 0.95) 0%,rgba(246, 242, 242, 0.95) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='rgba(232, 227, 227, 0.95)', endColorstr='rgba(246, 242, 242, 0.95)',GradientType=0 ); /* IE6-9 */
+	background-repeat: repeat-x;
+	border-color: #252525;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff222222', endColorstr='#ff111111', GradientType=0);
+}
+.active{
+  background-color: #D8DFEA;
+}
+  
+  
+.nav {
+    list-style: none;
+     *zoom: 1;
+background: #e8e3e3; /* Old browsers */
+  background: -moz-linear-gradient(top,  rgba(232, 227, 227, 0.95) 0%, rgba(246, 242, 242, 0.95) 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(232, 227, 227, 0.95)), color-stop(100%,rgba(246, 242, 242, 0.95))); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  rgba(232, 227, 227, 0.95) 0%,rgba(246, 242, 242, 0.95) 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top,  rgba(232, 227, 227, 0.95) 0%,rgba(246, 242, 242, 0.95) 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top,  rgba(232, 227, 227, 0.95) 0%,rgba(246, 242, 242, 0.95) 100%); /* IE10+ */
+  background: linear-gradient(to bottom,  rgba(232, 227, 227, 0.95) 0%,rgba(246, 242, 242, 0.95) 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='rgba(232, 227, 227, 0.95)', endColorstr='rgba(246, 242, 242, 0.95)',GradientType=0 ); /* IE6-9 */
+  background-repeat: repeat-x;
+  border-color: #252525;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff222222', endColorstr='#ff111111', GradientType=0);
+}
+.nav:before,
+.nav:after {
+    content: " "; 
+    display: table; 
+}
+.nav:after {
+    clear: both;
+}
+.nav ul 
+{
+    list-style: none;
+    width: 9em;
+}
+.nav a {
+    padding: 10px 15px;
+	color:black;
+	font-weight: lighther;
+}
+.nav li {
+    position: relative;
+}
+.nav > li.last {
+    margin-right:100px;
+}
+.nav > li {
+    width:auto;
+    float: right;
+    border-bottom : 0px solid black;   
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.nav > li.hover{background-color:#E51400;}
+.nav > li > .parent {
+    background-image: url("images/downArrow.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.nav > li > a {display: block;}
+.nav > li > ul > li .parent {
+    background-image: url("images/downArrow.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.nav li  ul {
+    position: absolute;
+    left: -9999px;
+}
+.nav > li.hover > ul {
+    left: 0;
+}
+.nav li li.hover ul {
+    left: 100%;
+    top: 0;
+}
+.nav li li a {
+    display: block;
+    background: #003366;
+    position: relative;
+    z-index:100;
+    border-bottom: 1px solid black;
+}
+.nav > li > ul > li.hover{
+   background-color:#E51400;
+}
+.nav > li > ul > li.hover > a{
+   background-color:#E51400;
+}
+.nav li li li a {
+    background:#003366;
+    z-index:200;
+    border-bottom: 1px solid black;
+}
+.nav > li > ul > li.hover > ul > li.hover{background-color:#E51400;}
+.nav > li > ul > li.hover > ul > li.hover > a{
+   background-color:#E51400;
+}
+
+@media screen and (max-width: 983px) {
+    .active     {
+        display: block;
+    }
+    .nav > li     {
+        float: none;
+    }
+    .nav > li.last     {
+           margin-right:5px;
+    }
+    .nav > li > .parent {
+        background-position: 95% 50%;
+    }
+    .nav li li .parent {
+        background-image: url("images/downArrow.png");
+        background-repeat: no-repeat;
+        background-position: 95% 50%;
+    }
+    .nav ul {
+        display: block;
+        width: 100%;
+    }
+   .nav > li.hover > ul , .nav li li.hover ul {
+        position: static;
+    }
+
+}
+
+
 #top.container {
-	margin-bottom: 0px;
+	margin: 0px;
+	width:95%;
+	margin-left:20px;
 }
 
 h1 {
 	-webkit-font-smoothing: antialiased;
 	font-size: 30px;
 	margin-bottom: 0;
-	font-family: helvetica, arial, freesans, clean, sans-serif;
+	font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
 	font-style: normal;
 	font-variant: normal;
 	font-weight: 300;
@@ -65,7 +178,7 @@ h2 {
 	border-bottom-style: solid;
 	border-bottom-width: 1px;
 	color: #546872;
-	font-family: helvetica, arial, freesans, clean, sans-serif;
+	font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
 	font-style: normal;
 	font-variant: normal;
 	font-weight: bold;
@@ -78,7 +191,7 @@ h3 {
 	font-size: 18px;
 	margin: 25px 0 10px 0;
 
-	font-family: helvetica, arial, freesans, clean, sans-serif;
+	font-family:  "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
 	font-style: normal;
 	font-variant: normal;
 	font-weight: bold;
@@ -88,7 +201,7 @@ h3 {
 
 h4 {
 	-webkit-font-smoothing: antialiased;
-	font-family: helvetica, arial, freesans, clean, sans-serif;
+	font-family:  "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
 
 	font-size: 14px;
 	color: #444;
@@ -102,7 +215,7 @@ h4 span{
 p{
 	-webkit-font-smoothing: antialiased;
 	color: #333;
-	font-family: helvetica, arial, freesans, clean, sans-serif;
+	font-family:  "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
 	font-size: 15px;
 	font-style: normal;
 	font-variant: normal;
@@ -120,7 +233,7 @@ ol.table-of-contents{
 .pager { margin: 40px 0; font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;}
 
 span.code {
-	font-family: courier;
+	font-family:  "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
 	border: 1px solid #CCC;
 	background-color: #EEE;
 	font-size: 14px;
@@ -204,7 +317,7 @@ p.more-info {
 	cursor: pointer;
 	display: block;
 	float: left;
-	font-family: sans-serif;
+	font-family:  "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
 	font-size: 11px;
 	font-style: normal;
 	font-variant: normal;
@@ -264,8 +377,9 @@ div#banner{
 }
 
 .accordion-heading a{
-	font-weight: bolder;
+	font-weight: normal;
 	text-decoration: none;
+	background-color:#D8DFEA;
 	color: black;	
 	font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
 	margin-left: 15px;
@@ -273,9 +387,10 @@ div#banner{
 }
 .accordion-inner {
 	font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
-	background-color: #eee;
+	background-color:white;
 }
 .accordion-inner ul {
+	background-color:white;
 	list-style: none;
 	margin: 0;
 }
@@ -465,8 +580,6 @@ p.note {
             border-radius: 4px;
 }
 
-
-
 #navegador li {
   display:inline;
 }
@@ -490,6 +603,93 @@ p.note {
   border:1px solid black ;
   border-radius:10px;
 }
+
+.metro-surface{
+	padding: 0px 0px 0px 0px;
+}
+
+.metro-tile {
+	background-color: #446FB1;
+	border-color: #446FB1;
+	width: 150px;
+	height: 40px;
+	padding: 5px;
+	color: #FFF;
+	font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+	font-size: 12px;
+	font-weight: ligther;
+	border-width: 3px;
+	border-style: solid;
+	cursor: pointer;
+	-webkit-transition: 0.1s all;
+	-moz-transition: 0.1s all;
+	-ms-transition: 0.1s all;
+	transition: 0.1s all;
+}
+.metro-tile-fluxo {
+	background-color: #446FB1;
+	border-color: #446FB1;
+	width: 150px;
+	height: 40px;
+	padding: 5px;
+	color: #FFF;
+	font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+	font-size: 12px;
+	text-align: center;
+	font-weight: light;
+	border-style: solid;
+	cursor: pointer;
+	-webkit-transition: 0.1s all;
+	-moz-transition: 0.1s all;
+	-ms-transition: 0.1s all;
+	transition: 0.1s all;
+}
+
+.metro-tile-small {
+	width: 75px;
+	height: 40px;
+}
+
+.metro-surface a:hover  {
+	text-decoration: none;
+}
+
+div.metro-tile:hover {
+	-webkit-transform: scale(0.97) perspective(400px) rotateY(0deg) rotateX(0deg);
+	-moz-transform: scale(0.97) perspective(400px) rotateY(0deg) rotateX(0deg);
+	-ms-transform: scale(0.97) perspective(400px) rotateY(0deg) rotateX(0deg);
+	transform: scale(0.97) perspective(400px) rotateY(0deg) rotateX(0deg);
+	border-width: 3px;
+	border-style:solid; 
+}
+
+div.metro-tile-fluxo:hover {
+	-webkit-transform: scale(0.97) perspective(400px) rotateY(0deg) rotateX(0deg);
+	-moz-transform: scale(0.97) perspective(400px) rotateY(0deg) rotateX(0deg);
+	-ms-transform: scale(0.97) perspective(400px) rotateY(0deg) rotateX(0deg);
+	transform: scale(0.97) perspective(400px) rotateY(0deg) rotateX(0deg);
+	border-width: 3px;
+	border-style:solid; 
+}
+
+.metro-tile-green {
+	background-color:#00A300;
+	border-color:#00A300;
+}
+.metro-tile-red {
+ background-color: #B91D47;
+	border-color: #B91D47;;
+}
+.metro-tile-teal {
+ background-color: #00ABA9;
+	border-color: #00ABA9;;
+}
+.metro-tile-orange {
+ background-color: #F09609;
+	border-color: #F09609;;
+}
+
+  
 
 
 
@@ -558,7 +758,7 @@ p.note {
 		margin: 0 0 5px 0;
 	}
 	.sitemap h2 {
-		font-family: "Lucida Grande", Verdana, sans-serif;
+		font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
 		font-size: 10px;
 		color: #777777;
 		margin: 0 0 20px 0;

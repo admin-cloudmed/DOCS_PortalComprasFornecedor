@@ -1,24 +1,35 @@
 <center><h1><%= I18n.t("relatorios.index.title") %></h1></center>
 <p class="more-info"><%= I18n.t("general.updated_at", :date => "15/07/2013") %></p>
 <h3><%= I18n.t("general.index") %></h3>
+
+
+
 <!--Indice -->
-<div id="navegador">
- 	<center><ul>
-	<li><a href="#produtos_vencidos_inner"><%= I18n.t("relatorios.index.table_of_contents.produtos_vencidos") %></a></li>
-</ul></center>
-</div>	
+<div class="metro-surface">
+   <center>
+      <table>
+         <tr>
+            <td><a href="#produtos_vencidos_inner"><div class="metro-tile "><%= I18n.t("relatorios.index.table_of_contents.produtos_vencidos") %></div></a></td>
+         </tr>
+      </table>
+   </center>
+</div
+
+
 <!-- produtos_vencidos  -->
 <div id ="produtos_vencidos" > &nbsp </div>
 <h2 id="produtos_vencidos_inner"><%= I18n.t("relatorios.index.table_of_contents.produtos_vencidos") %></h2>
 <div class="row-fluid">
-	<center><img  src="/img/relatorios/relatorios_produtos_vencidos.jpg" alt="Produtos Vencidos" /></center>
+	<center><img  src="/img/relatorios/relatorios_produtos_vencidos.png" /></center>
 	<p align="right" style="font-weight:bold;"><%= I18n.t("relatorios.index.produtos_vencidos.item_1") %></p>
 	<p style="text-indent: 3em; text-align: justify;"> <%= I18n.t("relatorios.index.produtos_vencidos.item_2") %></p>
-	<center><img  class="zoomh"src="/img/relatorios/produtos_vencidos.jpg" alt="Produtos Vencidos" /></center>
+	<center><img  src="/img/relatorios/produtos_vencidos.jpg"  /></center>
 	<p align="right" style="font-weight:bold;"><%= I18n.t("relatorios.index.produtos_vencidos.item_3") %></p>
 	<p style="text-indent: 3em; text-align: justify;"> <%= I18n.t("relatorios.index.produtos_vencidos.item_4") %></p>
 </div>
 <p class="note" style="text-indent: 3em; text-align: justify;"><%= I18n.t("relatorios.index.produtos_vencidos.item_5") %></p>
+
+
 <!--Botão proximo -->
 <ul class="pager">
   <li class="previous"><%= link_to("&larr; " + I18n.t("orcamentos.index.title"), "orcamentos") %></li>

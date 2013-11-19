@@ -1,11 +1,11 @@
 "pt-BR":
   main_menu:
     home: "Início"
-    docs: "Documentação"
+    docs: "Documentação Fornecedor"
     get_in_touch: "Entre em contato"
   errors:
     not_found:
-      title: "Página não econtrada"
+      title: "Página não encontrada"
       description: "Não foi possível encontrar a página solicitada."
   general:
     updated_at: "Atualizado em %{date}"
@@ -22,7 +22,7 @@
         features_yield: "Funcionalidades e Finalidades."
         who_uses: "Quem Pode Utilizar?"
       how_it_works:
-        paragraph_1: "O Portal de Compras é uma solução para área de saúde no modelo <a href='http://pt.wikipedia.org/wiki/Software_como_serviço' target='blank' class='external'>SaaS</a>. É uma ferramenta que possibilita todo o acompanhamento e gestão das negociações, auditoria técnica e médica, controle de utilização do material cotado/provisionado na cirurgia, sua posterior aprovação para faturamento e possíveis divergências de materiais OPME, em lotes e em regime de leilão reverso, permitindo um maior poder de negociação, que geralmente são de alto custo."
+        paragraph_1: "O Portal de Compras é uma solução para área de saúde no modelo <a href='http://pt.wikipedia.org/wiki/Software_como_serviço' target='blank' class='external'>SaaS</a>. É uma ferramenta que possibilita todo o acompanhamento e gestão das negociações de materiais OPME, auditoria técnica e médica, controle de utilização do material cotado/provisionado na cirurgia, sua posterior aprovação para faturamento e possíveis divergências de materiais OPME, em lotes e em regime de leilão reverso, permitindo um maior poder de negociação, que geralmente são de alto custo."
       features_yield:
         paragraph_1: "O Portal de Compras é a solução da CloudMed que possibilita todo o acompanhamento e gestão das negociações de materiais OPME, auditoria técnica e médica, controle do material provisionado para a cirurgia, sua posterior aprovação para faturamento e possíveis divergências. Indicado para Operadoras de Planos de Saúde e Prestadores."
         feature_1: "Características"
@@ -34,7 +34,7 @@
         feature_7: "Oferece a geração de relatório de economia, cotação e faturamento;"
         feature_8: "Permite a indexação de consultas, guias e quaisquer documentos necessários."
         feature_9: "Benefícios"
-        feature_10: "Acessível por qualquer meio eletrônico que possua internet (pc, notebook, tablet, celular, etc);"
+        feature_10: "Acessível por qualquer meio eletrônico que possua internet (PC’s, Notebooks, Tablets, Celulares, etc);"
         feature_11: "Controle total do processo, desde a cotação até a utilização do material;"
         feature_12: "Maior poder de negociação e compra dos materiais, que geralmente são de alto custo;"
         feature_13: "Relatório e histórico, por perfil, de todas as etapas do processo a ser gerenciado;"
@@ -47,7 +47,7 @@
         item_2: "Hospitais;"
         item_3: "Fornecedores de materiais OPME;"
         item_4: "Clínicas Cirúrgicas;"
-        item_5: "Todo seguimento de empresas que lidam com cotações de materiais de Orteses, Próteses e Materiais Especiais."
+        item_5: "Todo seguimento de empresas que lidam com cotações de materiais de Órteses, Próteses e Materiais Especiais."
   understanding_the_system:
    index:
       title: "Entendendo o Sistema"
@@ -58,9 +58,9 @@
         dashboard: "Dashboard"
         mural: "Mural"
       welcome:
-        item_1: "Olá, bem vindo ao Portal de Compras da CloudMed! Iniciaremos agora, um passeio pelo sistema e todas as suas telas, entendendo todos seus processos e por fim suas funcionalidades. Fique a vontade e qualquer dúvida entre em contato conosco!"
+        item_1: "Olá, bem-vindo ao Portal de Compras da CloudMed! Iniciaremos agora, um passeio pelo sistema e suas funções, entendendo seus principais processos e funcionalidades. Fique à vontade e, qualquer dúvida, entre em contato conosco!"
       dashboard:
-        item_1: "Abaixo temos o 'Dashboard' ou se preferir nosso 'Painel de Controle'! Esta é a primeira visualização que você terá ao entrar no Portal de Compras. Reunimos aqui de forma simples e objetiva as informações mais relevantes do sistema, de acordo com a movimentação e perfil de seu usuário. Perceba que na parte superior direita da tela existe um campo de busca: nele é possível buscar qualquer informação digitando somente uma palavra ou frase. Dependendo do filtro digitado, o sistema mostrará diretamente a informação ou uma lista de registros encontrados. Abuse desta funcionalidade! Nós a desenvolvemos para agilizar a busca de informações de nossos usuários!"
+        item_1: "Abaixo temos o 'Dashboard' ou se preferir nosso 'Painel de Controle'! Esta é a primeira visualização que você terá ao entrar no Portal de Compras. Reunimos aqui de forma simples e objetiva as informações mais relevantes do sistema, de acordo com a movimentação e perfil de seu usuário. Perceba que na parte superior direita da tela existe um campo de busca: nele é possível buscar qualquer informação digitando somente uma palavra ou frase. Dependendo do filtro digitado, o sistema mostrará diretamente a informação ou uma lista de registros encontrados. Abuse desta funcionalidade! Nós a desenvolvemos para agilizar a busca de informações dos nossos usuários!"
         item_2: "Dashboard"
         item_3: "<a href='orcamentos#index' target='blank'>Orçamentos</a>"
         item_4: "<a href='orcamentos#notas_fiscais' target='blank'>Aguardando Notas Fiscais</a>"
@@ -68,7 +68,7 @@
         item_6: "<a href='orcamentos#pendentes' target='blank'>Pendentes Fornecedor</a>"
         item_7: "Veja abaixo onde cada parte do dashboard te leva de maneira fácil e prática:"
       mural:
-        item_1: "Abaixo apresentamos nosso mural. Nele você visualiza as publicações feitas pela Cloudmed, como informações úteis aos usuários, dicas e alertas. Dessa forma ser informado fica rápido e prático!"
+        item_1: "Abaixo apresentamos nosso mural. Nele você visualiza as publicações feitas pela CloudMed, como informações úteis aos usuários, dicas e alertas. Dessa forma, ser informado fica rápido e prático!"
         item_2: "Mural"
   menu_principal:
    index:
@@ -109,9 +109,16 @@
       title: "Orçamentos"
       table_of_contents: 
         index: "Índice"
+        divergencia_fornecedor: "Divergencia Pendente com o Fornecedor"
         faturados: "Faturados/10 dias"
         notas_fiscais: "Aguardando Notas Fiscais"
         pendentes: "Pendente Fornecedor"
+      divergencia_fornecedor:
+        item_1: "Menu > Orçamentos > Divergências Pendentes com o Fornecedor"
+        item_2: "Acessando o menu acima, você será encaminhado para uma tela parecida a  <a href='orcamentos#pendentes' target='blank'>Orçamentos Pendentes com o Fornecedor</a>. A diferença é que aqui teremos apenas os produtos que já foram utilizados pelo paciente, ou seja, orçamentos em divergência (pós autorização inicial), não havendo a opção de 'não participar' da cotação."
+        item_3: "Divergências Pendentes com o Fornecedor"
+        item_4: ""
+        item_5: "Divergências Pendentes com o Fornecedor"
       faturados:
         item_1: "Menu > Orçamentos > Faturados/10 dias"
         item_2: "Em 'Orçamentos > Faturados 10 dias' é exibido todos os orçamentos que foram faturados (link faturados) pelos compradores nos últimos 10 dias. A tela abaixo é um exemplo de como sistema exibirá os orçamentos que se encontram neste status, bem como outras informações úteis. Para mais detalhes do orçamento, bata clicar em seu número (link) sempre a esquerda de cada orçamento listado."

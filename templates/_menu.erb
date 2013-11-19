@@ -1,5 +1,5 @@
-<div class="accordion" id="accordion2">
-   <!-- Portal OPME --> 
+<div>
+  <!-- Portal OPME --> 
   <div class="accordion-group">
     <div class="accordion-heading">
       <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne" onclick="location.href = 'portalopme'">Portal De Compras</a>
@@ -57,6 +57,7 @@
     <div id="collapseFour" class="accordion-body collapse <%=is_group_active?("orcamentos") %>">
       <div class="accordion-inner">
         <ul>
+            <li><a href=""><%= link_to(I18n.t("orcamentos.index.table_of_contents.divergencia_fornecedor"), "orcamentos#divergencia_fornecedor") %></a></li>
             <li><a href=""><%= link_to(I18n.t("orcamentos.index.table_of_contents.faturados"), "orcamentos#faturados") %></a></li>
 			<li><a href=""><%= link_to(I18n.t("orcamentos.index.table_of_contents.notas_fiscais"), "orcamentos#notas_fiscais") %></a></li>
 			<li><a href=""><%= link_to(I18n.t("orcamentos.index.table_of_contents.pendentes"), "orcamentos#pendentes") %></a></li>

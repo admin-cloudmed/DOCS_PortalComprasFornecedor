@@ -1,18 +1,38 @@
 <center><h1><%= I18n.t("portalopme.index.title") %></h1></center>
-<p class="more-info"><%= I18n.t("general.updated_at", :date => "15/07/2013") %> </p>
+<p class="more-info"><%= I18n.t("general.updated_at", :date => "18/11/2013") %> </p>
 <h3><%= I18n.t("general.index") %></h3>
+
 <!--Indice -->
-<div id="navegador">
- <center><ul>
-  <li><a href="#how_it_works_inner"><%= I18n.t("portalopme.index.table_of_contents.how_it_works") %></a></li>
-  <li><a href="#features_yield_inner"><%= I18n.t("portalopme.index.table_of_contents.features_yield") %></a></li>
-  <li><a href="#who_uses_inner"><%= I18n.t("portalopme.index.table_of_contents.who_uses") %></a></li>
-  </ul></center>
+<div class="metro-surface">
+   <center>
+      <table>
+         <tr>
+            <td>
+               <a href="#how_it_works_inner">
+                  <div class="metro-tile metro-tile-small "><%= I18n.t("portalopme.index.table_of_contents.how_it_works") %></div>
+               </a>
+            </td>
+            <td>
+               <a href="#features_yield_inner">
+                  <div class="metro-tile"><%= I18n.t("portalopme.index.table_of_contents.features_yield") %></div>
+               </a>
+            </td>
+            <td>
+               <a href="#who_uses_inner">
+                  <div class="metro-tile"><%= I18n.t("portalopme.index.table_of_contents.who_uses") %></div>
+               </a>
+            </td>
+         </tr>
+      </table>
+   </center>
 </div>
+
 <!--O que é? -->
 <div id ="how_it_works" > &nbsp </div>
 <h2 id="how_it_works_inner"><%= I18n.t("portalopme.index.table_of_contents.how_it_works") %></h2>
 <p style="text-indent: 3em; text-align: justify;"><%= I18n.t("portalopme.index.how_it_works.paragraph_1") %></p>
+
+
 <!--Funcionalidades e Rendimentos -->
 <div id ="features_yield" > &nbsp </div>
 <h2 id="features_yield_inner"><%= I18n.t("portalopme.index.table_of_contents.features_yield") %></h2>
@@ -37,6 +57,8 @@
 				<p><li><%= I18n.t("portalopme.index.features_yield.feature_15") %></li></p>
 				<p><li><%= I18n.t("portalopme.index.features_yield.feature_16") %></li></p>
 </div>
+
+
 <!-- Quem usa -->
 <div id ="who_uses" > &nbsp </div>
 <h2 id="who_uses_inner"><%= I18n.t("portalopme.index.table_of_contents.who_uses") %></h2>
@@ -55,6 +77,8 @@
 	<img src="/img/portalopme/medical-team.jpg" alt="Medical Team" />
   </div>
 </div>
+
+
 <!--Botão proximo -->
 <ul class="pager">
   <li class="next">
