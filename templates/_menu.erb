@@ -2,14 +2,14 @@
   <!-- Portal OPME --> 
   <div class="accordion-group">
     <div class="accordion-heading">
-      <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne" onclick="location.href = 'portalopme'">Portal De Compras</a>
+      <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne" onclick="location.href = 'portalopme'">Portal de Compras</a>
     </div>
     <div id="collapseOne" class="accordion-body collapse <%=is_group_active?("portalopme") %>">
       <div class="accordion-inner">
         <ul>
-          <li><a href=""><%= link_to(I18n.t("portalopme.index.table_of_contents.how_it_works"), "portalopme#how_it_works") %></a></li>
-          <li><a href=""><%= link_to(I18n.t("portalopme.index.table_of_contents.features_yield"), "portalopme#features_yield") %></a></li>
-          <li><a href=""><%= link_to(I18n.t("portalopme.index.table_of_contents.who_uses"), "portalopme#who_uses") %></a></li>
+          <li><a href=""><%= link_to(I18n.t("portalopme.index.table_of_contents.how_it_works"), "portalopme#how_it_works_inner") %></a></li>
+          <li><a href=""><%= link_to(I18n.t("portalopme.index.table_of_contents.features_yield"), "portalopme#features_yield_inner") %></a></li>
+          <li><a href=""><%= link_to(I18n.t("portalopme.index.table_of_contents.who_uses"), "portalopme#who_uses_inner") %></a></li>
         </ul>
       </div>
     </div>
@@ -24,9 +24,9 @@
       <div class="accordion-inner">
         <ul>
 			<li><a href="#welcome"><%= link_to(I18n.t("understanding_the_system.index.table_of_contents.welcome"), "understanding_the_system#welcome") %></a></li>
-			<li><a href="#fluxograma"><%= link_to(I18n.t("understanding_the_system.index.table_of_contents.fluxograma"), "understanding_the_system#fluxograma") %></a></li>
-			<li><a href="#dashboard"><%= link_to(I18n.t("understanding_the_system.index.table_of_contents.dashboard"), "understanding_the_system#dashboard") %></a></li>
-            <li><a href="#mural"><%= link_to(I18n.t("understanding_the_system.index.table_of_contents.mural"), "understanding_the_system#mural") %></a></li>          
+			<li><a href="#fluxograma"><%= link_to(I18n.t("understanding_the_system.index.table_of_contents.fluxograma"), "understanding_the_system#fluxograma_inner") %></a></li>
+			<li><a href="#dashboard"><%= link_to(I18n.t("understanding_the_system.index.table_of_contents.dashboard"), "understanding_the_system#dashboard_inner") %></a></li>
+            <li><a href="#mural"><%= link_to(I18n.t("understanding_the_system.index.table_of_contents.mural"), "understanding_the_system#mural_inner") %></a></li>          
         </ul>
       </div>
     </div>
@@ -40,10 +40,10 @@
     <div id="collapseThree" class="accordion-body collapse <%=is_group_active?("menu_principal") %>">
       <div class="accordion-inner">
         <ul>
-            <li><a href=""><%= link_to(I18n.t("menu_principal.index.table_of_contents.menu_principal"), "menu_principal#menu_principal") %></a></li>
-			<li><a href=""><%= link_to(I18n.t("menu_principal.index.table_of_contents.menu_principal_orcamentos"), "menu_principal#menu_principal_orcamentos") %></a></li>
-			<li><a href=""><%= link_to(I18n.t("menu_principal.index.table_of_contents.menu_principal_relatorios"), "menu_principal#menu_principal_relatorios") %></a></li>
-			<li><a href=""><%= link_to(I18n.t("menu_principal.index.table_of_contents.menu_principal_configuracoes"), "menu_principal#menu_principal_configuracoes") %></a></li>
+            <li><a href=""><%= link_to(I18n.t("menu_principal.index.table_of_contents.menu_principal"), "menu_principal#menu_principal_inner") %></a></li>
+			<li><a href=""><%= link_to(I18n.t("menu_principal.index.table_of_contents.menu_principal_orcamentos"), "menu_principal#menu_principal_orcamentos_inner") %></a></li>
+			<li><a href=""><%= link_to(I18n.t("menu_principal.index.table_of_contents.menu_principal_relatorios"), "menu_principal#menu_principal_relatorios_inner") %></a></li>
+			<li><a href=""><%= link_to(I18n.t("menu_principal.index.table_of_contents.menu_principal_configuracoes"), "menu_principal#menu_principal_configuracoes_inner") %></a></li>
         </ul>
       </div>
     </div>
@@ -57,10 +57,11 @@
     <div id="collapseFour" class="accordion-body collapse <%=is_group_active?("orcamentos") %>">
       <div class="accordion-inner">
         <ul>
-            <li><a href=""><%= link_to(I18n.t("orcamentos.index.table_of_contents.divergencia_fornecedor"), "orcamentos#divergencia_fornecedor") %></a></li>
-            <li><a href=""><%= link_to(I18n.t("orcamentos.index.table_of_contents.faturados"), "orcamentos#faturados") %></a></li>
-			<li><a href=""><%= link_to(I18n.t("orcamentos.index.table_of_contents.notas_fiscais"), "orcamentos#notas_fiscais") %></a></li>
-			<li><a href=""><%= link_to(I18n.t("orcamentos.index.table_of_contents.pendentes"), "orcamentos#pendentes") %></a></li>
+            <li><a href=""><%= link_to(I18n.t("orcamentos.index.table_of_contents.divergencia_fornecedor"), "orcamentos#divergencia_fornecedor_inner") %></a></li>
+            <li><a href=""><%= link_to(I18n.t("orcamentos.index.table_of_contents.faturados"), "orcamentos#faturados_inner") %></a></li>
+			<li><a href=""><%= link_to(I18n.t("orcamentos.index.table_of_contents.notas_fiscais"), "orcamentos#notas_fiscais_inner") %></a></li>
+			<li><a href=""><%= link_to(I18n.t("orcamentos.index.table_of_contents.pendentes"), "orcamentos#pendentes_inner") %></a></li>
+			<li><a href=""><%= link_to(I18n.t("orcamentos.index.table_of_contents.nfrecebida"), "orcamentos#nfrecebida_inner") %></a></li>
         </ul>
       </div>
     </div>
@@ -74,7 +75,11 @@
     <div id="collapseFive" class="accordion-body collapse <%=is_group_active?("relatorios") %>">
       <div class="accordion-inner">
         <ul>
-            <li><a href=""><%= link_to(I18n.t("relatorios.index.table_of_contents.produtos_vencidos"), "relatorios#produtos_vencidos") %></a></li>
+            <li><a href=""><%= link_to(I18n.t("relatorios.index.table_of_contents.produtos_vencidos"), "relatorios#produtos_vencidos_inner") %></a></li>
+            <li><a href=""><%= link_to(I18n.t("relatorios.index.table_of_contents.produtos_vendidos"), "relatorios#produtos_vendidos_inner") %></a></li>
+            <li><a href=""><%= link_to(I18n.t("relatorios.index.table_of_contents.top_compradores"), "relatorios#top_compradores_inner") %></a></li>
+            <li><a href=""><%= link_to(I18n.t("relatorios.index.table_of_contents.top_produtos"), "relatorios#top_produtos_inner") %></a></li>
+            <li><a href=""><%= link_to(I18n.t("relatorios.index.table_of_contents.valores_vencidos"), "relatorios#valores_vencidos_inner") %></a></li>
         </ul>
       </div>
     </div>
@@ -88,12 +93,14 @@
     <div id="collapseSix" class="accordion-body collapse <%=is_group_active?("configuracoes") %>">
       <div class="accordion-inner">
         <ul>
-            <li><a href="#menu_principal"><%= link_to(I18n.t("configuracoes.index.table_of_contents.index"), "configuracoes#index") %></a></li>
-            <li><a href="#menu_principal"><%= link_to(I18n.t("configuracoes.index.table_of_contents.meus_dados"), "configuracoes#meus_dados") %></a></li>
-			<li><a href="#menu_principal"><%= link_to(I18n.t("configuracoes.index.table_of_contents.valores_vencidos"), "configuracoes#valores_vencidos") %></a></li>
-			<li><a href="#menu_principal"><%= link_to(I18n.t("configuracoes.index.table_of_contents.relacionar_produtos"), "configuracoes#relacionar_produtos") %></a></li>
-			<li><a href="#menu_principal"><%= link_to(I18n.t("configuracoes.index.table_of_contents.valorizar_produtos"), "configuracoes#valorizar_produtos") %></a></li>
-			<li><a href="#menu_principal"><%= link_to(I18n.t("configuracoes.index.table_of_contents.convidar_comprador"), "configuracoes#convidar_comprador") %></a></li>
+            <li><a href="#menu_principal"><%= link_to(I18n.t("configuracoes.index.table_of_contents.meus_dados"), "configuracoes#meus_dados_inner") %></a></li>
+			<li><a href="#menu_principal"><%= link_to(I18n.t("configuracoes.index.table_of_contents.lista_produtos"), "configuracoes#lista_produtos_inner") %></a></li>
+			<li><a href="#menu_principal"><%= link_to(I18n.t("configuracoes.index.table_of_contents.relacionar_produtos"), "configuracoes#relacionar_produtos_inner") %></a></li>
+			<li><a href="#menu_principal"><%= link_to(I18n.t("configuracoes.index.table_of_contents.valorizar_produtos"), "configuracoes#valorizar_produtos_inner") %></a></li>
+			<li><a href="#menu_principal"><%= link_to(I18n.t("configuracoes.index.table_of_contents.convidar_comprador"), "configuracoes#convidar_comprador_inner") %></a></li>
+			<li><a href="#menu_principal"><%= link_to(I18n.t("configuracoes.index.table_of_contents.cadastro_representante"), "configuracoes#cadastro_representante_inner") %></a></li>
+			<li><a href="#menu_principal"><%= link_to(I18n.t("configuracoes.index.table_of_contents.pesquisa_compradores"), "configuracoes#pesquisa_compradores_inner") %></a></li>
+			<li><a href="#menu_principal"><%= link_to(I18n.t("configuracoes.index.table_of_contents.pesquisa_representante"), "configuracoes#pesquisa_representante_inner") %></a></li>
         </ul>
       </div>
     </div>

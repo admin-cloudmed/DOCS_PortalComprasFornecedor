@@ -113,6 +113,7 @@
         faturados: "Faturados/10 dias"
         notas_fiscais: "Aguardando Notas Fiscais"
         pendentes: "Pendente Fornecedor"
+        nfrecebida: "Notas Fiscais Recebidas"
       divergencia_fornecedor:
         item_1: "Menu > Orçamentos > Divergências Pendentes com o Fornecedor"
         item_2: "Acessando o menu acima, você será encaminhado para uma tela parecida a  <a href='orcamentos#pendentes' target='blank'>Orçamentos Pendentes com o Fornecedor</a>. A diferença é que aqui teremos apenas os produtos que já foram utilizados pelo paciente, ou seja, orçamentos em divergência (pós autorização inicial), não havendo a opção de 'não participar' da cotação."
@@ -138,6 +139,10 @@
         item_2: "É nesta seção que a atenção ao sistema deve se concentrar, pois toda vez que um comprador fizer uma cotação de produtos você receberá um e-mail de notificação. É aqui que você visualizará todos os produtos que foram cotados pelos compradores, como se pode ver abaixo:"
         item_3: "Orçamentos Pendentes"
         item_4: "De forma intuitiva, a ação a ser feita nesta seção é a valorização do produto cotado, e o envio da informação ao comprador. Caso não haja interesse em participar da cotação, basta clicar em 'Não Participar'. Assim, o produto não será exibido na seção e o comprador será notificado da ação."
+      nfrecebida:
+        item_1: "Menu > Orçamentos > Notas Fiscais Recebidas"
+        item_2: "Podemos considerar este status do orçamento equivalente ao <a href='orcamentos#faturados_inner' target='blank' class='external'>Faturado</a>. <br /> Todo orçamento que recebe de anexo um arquivo (.XML) de uma Nota Fiscal Eletrônica, o Portal de Compras CloudMed guarda os dados dessa NFe em sua base de dados e pode até integrar essas informações fiscais com qualquer outro sistema de gestão. Quando o comprador opta por essa integração, os orçamentos ficam nesse status quando todas as informações são processadas :)"
+        item_3: "Orçamento com NFe recebida"
   relatorios:
    index:
       title: "Relatórios"
@@ -147,12 +152,34 @@
         produtos_vendidos: "Produtos Vendidos"
         top_compradores: "Top Compradores"
         top_produtos: "Top Produtos"
+        valores_vencidos: "Valores Vencidos"
       produtos_vencidos:
         item_1: "Menu > Relatórios > Produtos Vencidos"
         item_2: "Nesta seção é possível visualizar os produtos vencidos, e controlar os produtos que estejam com o código da ANVISA vencido. Veja:"
         item_3: "Relatório Produtos Vencidos"
         item_4: "Observe que o sistema exibe uma lista simples e prática, para que você visualize quais são os produtos fornecidos que estão com o Código ANVISA vencidos. Observe também que o sistema oferece dois campos para pesquisa, que facilitam a busca."
         item_5: "O Portal de Compras oferece também outras opções de relatórios. Para saber mais sobre os Planos Especiais, com mais opções de relatórios, entre em contato com nossos representantes pelo email comercial@cloudmed.io."
+      produtos_vendidos:
+        item_1: "Menu > Configurações > Produtos Vendidos"
+        item_2: "Aqui você consegue retirar do sistema um relatório de todos os produtos que foram vendidos por você dentro do Portal de Compras, filtrando por um período ou até mesmo um produto específico, veja:"
+        item_3: "Produtos Vendidos"
+        item_4: "Além das informações do orçamento, data e comprador dos produtos, repare que o Portal de Compras exibe nesse relatório informações de valores e quantidades vendidas. "
+      top_compradores:
+        item_1: "Menu > Configurações > Top Compradores"
+        item_2: "Seguindo o menu acima você chega até a tela abaixo e tem a possibilidade de verificar os maiores compradores (tanto em quantidade, quanto em valores). Veja:"
+        item_3: "Top Compradores"
+        item_4: "Informando um período clicando em 'Gerar Relatório' o Portal de Compras rankeia os maiores compradores nesse período além de disponibilizar a exportação do mesmo para o formato excel."
+      top_produtos:
+        item_1: "Menu > Relatórios > Top Produtos"
+        item_2: "Acessando o menu acima, você chega até o seguinte relatório de produtos:"
+        item_3: "Filtros Relatório Top Produtos"
+        item_4: "O relatório 'Top Produtos' te informa os produtos que foram comprados em maior quantidade no periodo selecionado, além da ordenação decrescente da quantidade, o relatório te informa também o valor gasto com esse produto.(Lembrramos também que você tem a opção de exportar esse relatório para uma planilha em Excel ;) ) Veja abaixo:"
+        item_5: "Relatório Top Produtos"
+      valores_vencidos:
+        item_1: "Menu > Configurações > Valores Vencidos"
+        item_2: "No Portal de Compras, além de informar os valores dos produtos, é possível também adicionar um prazo de validade para o preço oferecido. Assim, ao manter o controle das ofertas, fica fácil evita que algum preço desatualizado participe de rodadas de cotação. Veja abaixo um exemplo desta seção:"
+        item_3: "Valores Vencidos"
+        item_4: "Ao clicar no ícone 'lápis', lado esquerdo do produto, perceba que o sistema libera os campos para que as informações, sobre valor e data de validade, sejam editadas. Ao final, clicando no ícone 'verde', as informações serão atualizadas e disponibilizadas para as próximas cotações. Simples e fácil!"
   configuracoes:
    index:
       title: "Configurações"
@@ -160,10 +187,12 @@
         index: "Índice"
         meus_dados: "Meus Dados"
         lista_produtos: "Lista de Produtos"
-        valores_vencidos: "Valores Vencidos"
         relacionar_produtos: "Relacionar Produtos"
         valorizar_produtos: "Valorizar Produtos"
         convidar_comprador: "Convidar Comprador"
+        cadastro_representante: "Cadastro de Representantes"
+        pesquisa_compradores: "Pesquisa Compradores"
+        pesquisa_representante: "Pesquisa Representantes"
       meus_dados:
         item_1: "Menu > Configurações > Meus Dados"
         item_2: "Na seção 'Meus Dados' você visualiza as informações referentes à sua empresa. Mantenha sempre atualizadas as informações fiscais, localização e contatos, para que o sistema trabalhe corretamente entre todos os usuários que o utilizam. Veja como os dados serão exibidos e como editá-los:"
@@ -176,11 +205,6 @@
         item_3: "Pesquisa de Produtos"      
         item_4: "Abaixo temos um exemplo de uma lista de produtos. Aqui você visualiza a descrição do produto, o valor e o código ANVISA de acordo com cada fornecedor. Repare o botão abaixo 'Adicionar/Remover Especialidades': clicando nele, você visualiza e edita as especialidades médicas que esse produto atende, podendo marcar e desmarcar quantas especialidades forem necessárias."
         item_5: "Lista de Produtos"
-      valores_vencidos:
-        item_1: "Menu > Configurações > Valores Vencidos"
-        item_2: "No Portal de Compras, além de informar os valores dos produtos, é possível também adicionar um prazo de validade para o preço oferecido. Assim, ao manter o controle das ofertas, fica fácil evita que algum preço desatualizado participe de rodadas de cotação. Veja abaixo um exemplo desta seção:"
-        item_3: "Valores Vencidos"
-        item_4: "Ao clicar no ícone 'lápis', lado esquerdo do produto, perceba que o sistema libera os campos para que as informações, sobre valor e data de validade, sejam editadas. Ao final, clicando no ícone 'verde', as informações serão atualizadas e disponibilizadas para as próximas cotações. Simples e fácil!"
       relacionar_produtos:
         item_1: "Menu > Configurações > Relacionar Produtos"
         item_2: "O Portal de Compras conta com mais de seis mil produtos cadastrados em sua base de dados. Isso facilita o trabalho de cadastro e manutenção das informações dos produtos por parte dos fornecedores. Com o objetivo de facilitar o gerenciamento dos produtos, a principal tarefa do fornecedor é informar, e relacionar, os produtos que fornece. Assim, através de algoritmos avançados, faremos com que fornecedores participem apenas de cotações de produtos por ele oferecido/fornecido, com objetivo de manter o controle orçamento + fornecedor. Observe abaixo que, para relacionar um produto, é necessário primeiro pesquisá-lo, preenchendo qualquer filtro de acordo com os campos disponibilizados para busca:"
@@ -197,3 +221,15 @@
         item_1: "Menu > Configurações > Convidar Comprador"
         item_2: "Visando expandir a ferramenta, disponibilizaremos a opção de 'Convidar Comprador'. Se há clientes/compradores que ainda não estão cadastrados no sistema, convide-os para fazerem parte do Portal de Compras! Basta colocar o nome, e-mail e o telefone que o automaticamente faremos contato, convidando o comprador a participar do Portal de Compras."
         item_3: "Convidar Comprador"
+      cadastro_representante:
+        item_1: "Menu > Configurações > Cadastros > Representantes"
+        item_2: "O Portal de Compras oferece à você Fornecedor a possibilidade de cadastrar todos seus representantes espalhados pelo mundo, assim, a central de compras consegue organizar seus distribuidores por região ficando fácil o acesso de qualquer comprador aos seus produtos."
+        item_3: "Cadastro de Representantes"
+      pesquisa_compradores:
+        item_1: "Menu > Configurações > Pesquisas > Compradores"
+        item_2: "Em pesquisa de compradores, o Portal de Compras mostra a você todos os compradores que participam do sistema e todos seus status, veja abaixo:"
+        item_3: "Pesquisa de Compradores"
+      pesquisa_representante:
+        item_1: "Menu > Configurações > Pesquisas > Representantes"
+        item_2: "Para manter o controle e ter um fácil acesso, aqui você consegue visualizar e posteriormente até editar/excluir todos os representantes que foram cadastrados no Portal de Compras, veja:"
+        item_3: "Pesquisa de Representantes"
