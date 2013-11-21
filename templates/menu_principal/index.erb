@@ -41,9 +41,16 @@
 	   <center>
 		  <table>
 			 <tr>
-				<td><a href="#"><div class="metro-tile metro-tile-teal"><%= I18n.t("menu_principal.index.menu_principal_orcamentos.item_2") %></div></a></td>
-				<td><a href="#"><div class="metro-tile metro-tile-teal"><%= I18n.t("menu_principal.index.menu_principal_orcamentos.item_3") %></div></a></td>
-				<td><a href="#"><div class="metro-tile metro-tile-teal"><%= I18n.t("menu_principal.index.menu_principal_orcamentos.item_4") %></td></div></a></td>
+				<td><a href="orcamentos#faturados"><div class="metro-tile metro-tile-teal metro-tile-small"><%= I18n.t("menu_principal.index.menu_principal_orcamentos.item_2") %></div></a></td>
+				<td><a href="orcamentos#notas_fiscais"><div class="metro-tile metro-tile-teal"><%= I18n.t("menu_principal.index.menu_principal_orcamentos.item_3") %></div></a></td>
+				<td><a href="orcamentos#divergencia_fornecedor"><div class="metro-tile metro-tile-teal "><%= I18n.t("menu_principal.index.menu_principal_orcamentos.item_4") %></td></div></a></td>
+			 </tr>
+		  </table>
+		  <table>
+			 <tr>
+				<td><a href="orcamentos#pendentes"><div class="metro-tile metro-tile-teal"><%= I18n.t("menu_principal.index.menu_principal_orcamentos.item_5") %></td></div></a></td>
+				<td><a href="orcamentos#nfrecebida"><div class="metro-tile metro-tile-teal"><%= I18n.t("menu_principal.index.menu_principal_orcamentos.item_6") %></td></div></a></td>
+				<td><a href="orcamentos#"><div class="metro-tile metro-tile-teal metro-tile-small"></td></div></a></td>
 			 </tr>
 		  </table>
 	   </center>
@@ -63,7 +70,16 @@
 	   <center>
 		  <table>
 			 <tr>
-				<td><a href="#"><div class="metro-tile metro-tile-teal"><%= I18n.t("menu_principal.index.menu_principal_relatorios.item_2") %></td></div></a>
+				<td><a href="relatorios#produtos_vencidos"><div class="metro-tile metro-tile-teal metro-tile-small"><%= I18n.t("menu_principal.index.menu_principal_relatorios.item_2") %></td></div></a>
+				<td><a href="relatorios#produtos_vendidos"><div class="metro-tile metro-tile-teal"><%= I18n.t("menu_principal.index.menu_principal_relatorios.item_3") %></td></div></a>
+				<td><a href="relatorios#top_compradores"><div class="metro-tile metro-tile-teal"><%= I18n.t("menu_principal.index.menu_principal_relatorios.item_4") %></td></div></a>
+			 </tr>
+		  </table>
+		  <table>
+			 <tr>
+				<td><a href="relatorios#top_produtos"><div class="metro-tile metro-tile-teal"><%= I18n.t("menu_principal.index.menu_principal_relatorios.item_5") %></td></div></a>
+				<td><a href="relatorios#valores_vencidos"><div class="metro-tile metro-tile-teal"><%= I18n.t("menu_principal.index.menu_principal_relatorios.item_6") %></td></div></a>
+				<td><a href="#"><div class="metro-tile metro-tile-teal metro-tile-small"></td></div></a>
 			 </tr>
 		  </table>
 	   </center>
@@ -82,16 +98,18 @@
 	   <center>
 		  <table>
 			 <tr>
-				<td><a href="#"><div class="metro-tile metro-tile-teal"><%= I18n.t("menu_principal.index.menu_principal_configuracoes.item_2") %></div></a></td>
-				<td><a href="#"><div class="metro-tile metro-tile-teal"><%= I18n.t("menu_principal.index.menu_principal_configuracoes.item_3") %></div></a></td>
-				<td><a href="#"><div class="metro-tile metro-tile-teal"><%= I18n.t("menu_principal.index.menu_principal_configuracoes.item_4") %></div></a></td>
+				<td><a href="configuracoes#meus_dados"><div class="metro-tile metro-tile-teal"><%= I18n.t("menu_principal.index.menu_principal_configuracoes.item_2") %></div></a></td>
+				<td><a href="configuracoes#lista_produtos"><div class="metro-tile metro-tile-teal"><%= I18n.t("menu_principal.index.menu_principal_configuracoes.item_3") %></div></a></td>
+				<td><a href="configuracoes#relacionar_produtos"><div class="metro-tile metro-tile-teal"><%= I18n.t("menu_principal.index.menu_principal_configuracoes.item_4") %></div></a></td>
+				<td><a href="#"><div class="metro-tile metro-tile-teal"></td></div></a>
 			 </tr>
 		  </table>
 		  <table>
 			 <tr>
-				<td><a href="#"><div class="metro-tile metro-tile-teal"><%= I18n.t("menu_principal.index.menu_principal_configuracoes.item_5") %></div></a></td>
-				<td><a href="#"><div class="metro-tile metro-tile-teal"><%= I18n.t("menu_principal.index.menu_principal_configuracoes.item_6") %></div></a></td>
-				<td><a href="#"><div class="metro-tile metro-tile-teal"><%= I18n.t("menu_principal.index.menu_principal_configuracoes.item_7") %></td></div></a>
+				<td><a href="configuracoes#convidar_comprador"><div class="metro-tile metro-tile-teal"><%= I18n.t("menu_principal.index.menu_principal_configuracoes.item_5") %></div></a></td>
+				<td><a href="configuracoes#cadastro_representante"><div class="metro-tile metro-tile-teal"><%= I18n.t("menu_principal.index.menu_principal_configuracoes.item_6") %></div></a></td>
+				<td><a href="configuracoes#pesquisa_compradores"><div class="metro-tile metro-tile-teal"><%= I18n.t("menu_principal.index.menu_principal_configuracoes.item_7") %></td></div></a>
+				<td><a href="configuracoes#pesquisa_representante"><div class="metro-tile metro-tile-teal"><%= I18n.t("menu_principal.index.menu_principal_configuracoes.item_8") %></td></div></a>
 			 </tr>
 		  </table>
 	   </center>
