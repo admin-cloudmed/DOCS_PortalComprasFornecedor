@@ -78,7 +78,7 @@ background: #e8e3e3; /* Old browsers */
     margin-left: 5px;
     margin-right: 5px;
 }
-.nav > li.hover{background-color:#E51400;}
+
 .nav > li > .parent {
     background-image: url("images/downArrow.png");
     background-repeat: no-repeat;

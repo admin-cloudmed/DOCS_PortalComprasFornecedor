@@ -53,8 +53,7 @@
 <!--Fluxograma -->
 <div id ="fluxograma" > &nbsp </div>
 <h2 id="fluxograma_inner"><%= I18n.t("understanding_the_system.index.table_of_contents.fluxograma") %></h2>
-<div class="row-fluid">
-   <div class="metro-surface">
+<div class="row-fluid"><div class="metro-surface">
       <table>
          <tr>
             <td>
@@ -85,7 +84,9 @@
                <div style="width:138px;"></div>
             </td>
             <td>
-               <div class="metro-tile-fluxo  metro-tile-red" > Pendente Fornecedor</div>
+                <a href="/pt-BR/orcamentos#pendentes_fornecedor">
+					<div class="metro-tile-fluxo  metro-tile-red" > Pendente Fornecedor</div>
+                </a>
             </td>
             <td>
                <div  style="background-color:transparent;border-color:transparent;">
@@ -93,7 +94,7 @@
                </div>
             </td>
             <td>
-               <a href="/pt-BR/solicitar_opme#solicitar_opme">
+               <a href="/pt-BR/orcamentos#abertos">
                   <div class="metro-tile-fluxo  metro-tile-green">Aberto</div>
                </a>
             </td>
@@ -125,7 +126,7 @@
                <div style="width:358px;"></div>
             </td>
             <td>
-               <a href="/pt-BR/solicitar_opme#solicitar_opme">
+               <a href="/pt-BR/orcamentos#auditor">
                   <div class="metro-tile-fluxo  metro-tile-green">Pendente Auditor</div>
                </a>
             </td>
@@ -135,7 +136,9 @@
                </div>
             </td>
             <td>
+               <a href="/pt-BR/orcamentos#nao_aprovado">
                <div class="metro-tile-fluxo   metro-tile-orange" > Não Aprovado</div>
+               </a>
             </td>
          </tr>
       </table>
@@ -157,7 +160,9 @@
                <div style="width:138px;"></div>
             </td>
             <td>
+               <a href="/pt-BR/acoes_disponiveis#agendar_fornecedor">
                <div class="metro-tile-fluxo   metro-tile-orange" > Agendar com Fornecedor</div>
+               </a>
             </td>
             <td>
                <div  style="background-color:transparent;border-color:transparent;">
@@ -165,7 +170,7 @@
                </div>
             </td>
             <td>
-               <a href="#fluxograma_inner">
+               <a href="orcamentos#local_atendimento">
                   <div class="metro-tile-fluxo   metro-tile-green ">Pendente Hospital</div>
                </a>
             </td>
@@ -175,7 +180,9 @@
                </div>
             </td>
             <td>
+               <a href="orcamentos#divergencias_fornecedor">
                <div class="metro-tile-fluxo metro-tile-red" > Divergencia Pendente com o Fornecedor</div>
+               </a>
             </td>
          </tr>
       </table>
@@ -221,7 +228,9 @@
                <div style="width:110px;"></div>
             </td>
             <td>
+               <a href="orcamentos#divergencias">
                <div class="metro-tile-fluxo metro-tile-red" > Divergencia</div>
+			   </a>
             </td>
          </tr>
       </table>
@@ -251,8 +260,10 @@
                <div style="width:358px;"></div>
             </td>
             <td>
-               <div class="metro-tile-fluxo metro-tile-green" >Concluído</div>
-            </td>
+                <a href="orcamentos#concluidos">
+					<div class="metro-tile-fluxo metro-tile-green" >Concluído</div>
+				</a>
+			</td>
          </tr>
       </table>
       <table>
@@ -273,7 +284,9 @@
                <div style="width:358px;"></div>
             </td>
             <td>
+               <a href="acoes_disponiveis#enviar_faturamento">
                <div class="metro-tile-fluxo  metro-tile-orange" > Enviar P/ Faturamento</div>
+			   </a>
             </td>
          </tr>
       </table>
@@ -295,7 +308,9 @@
                <div style="width:140px;"></div>
             </td>
             <td>
-               <div class="metro-tile-fluxo   metro-tile-green" > Aguardando Reprocessamento do Título</div>
+               <a href="orcamentos#rep_titulo">
+				   <div class="metro-tile-fluxo   metro-tile-green" > Aguardando Reprocessamento do Título</div>
+			   </a>
             </td>
             <td>
                <div  style="background-color:transparent;border-color:transparent;">
@@ -303,7 +318,9 @@
                </div>
             </td>
             <td>
-               <div class="metro-tile-fluxo  metro-tile-green" > Aguardando Notas Fiscais</div>
+               <a href="orcamentos#notas_fiscais">
+				 <div class="metro-tile-fluxo  metro-tile-green" > Aguardando Notas Fiscais</div>
+			   </a>
             </td>
             <td>
                <div  style="background-color:transparent;border-color:transparent;">
@@ -311,7 +328,9 @@
                </div>
             </td>
             <td>
-               <div class="metro-tile-fluxo   metro-tile-green" > Aguardando Confirmação de Faturamento</div>
+               <a href="orcamentos#conf_faturamento">
+					<div class="metro-tile-fluxo   metro-tile-green" > Aguardando Confirmação de Faturamento</div>
+			   </a>
             </td>
          </tr>
       </table>
@@ -357,7 +376,9 @@
                <div style="width:138px;"></div>
             </td>
             <td>
+               <a href="orcamentos#nf_recebida">
                <div class="metro-tile-fluxo " > Nota Fiscal Recebida</div>
+			   </a>
             </td>
             <td>
                <div style="width:105px;"></div>
@@ -371,7 +392,9 @@
                <div style="width:110px;"></div>
             </td>
             <td>
+               <a href="acoes_disponiveis#confirmar_faturamento">
                <div class="metro-tile-fluxo metro-tile-orange" >Confirmar Faturamento </div>
+			   </a>
             </td>
          </tr>
       </table>
@@ -401,7 +424,9 @@
                <div style="width:360px;"></div>
             </td>
             <td>
-               <div class="metro-tile-fluxo " >Faturado </div>
+               <a href="orcamentos#faturados">
+					<div class="metro-tile-fluxo " >Faturado </div>
+			   </a>
             </td>
          </tr>
       </table>
@@ -414,7 +439,7 @@
 <h2 id="dashboard_inner"><%= I18n.t("understanding_the_system.index.table_of_contents.dashboard") %></h2>
 <div class="row-fluid">
    <p style="text-indent: 3em; text-align: justify;"><%= I18n.t("understanding_the_system.index.dashboard.item_1") %></p>
-   <img  ssrc="/img/understanding_the_system/Dashboard.png" />
+   <img  src="/img/understanding_the_system/Dashboard.png" />
    <p align="right" style="font-weight:bold;"><%= I18n.t("understanding_the_system.index.dashboard.item_2") %></p>
 </div>
 
