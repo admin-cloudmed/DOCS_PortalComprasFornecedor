@@ -4679,6 +4679,7 @@ background: #e8e3e3; /* Old browsers */
   font-weight:bold;
   background-color:'transparent' ;
   border:1px solid #555555 ;
+  border-radius:13px;
   padding:0.1cm;
   text-decoration:none;
 }
