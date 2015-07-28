@@ -54,14 +54,14 @@
       table_of_contents:
         index: "Índice" 
         welcome: "Bem Vindo!" 
-        fluxograma: "Fluxograma do Sistema"
-        dashboard: "Dashboard"
+        fluxograma: "Mapa do Sistema"
+        dashboard: "Dashboard (Paindel de Controle)"
         mural: "Mural"
       welcome:
         item_1: "Olá, bem-vindo ao Portal de Compras da CloudMed! Iniciaremos agora, um passeio pelo sistema e suas funções, entendendo seus principais processos e funcionalidades. Fique à vontade e, qualquer dúvida, entre em contato conosco!"
       dashboard:
         item_1: "Abaixo temos o 'Dashboard' ou se preferir nosso 'Painel de Controle'! Esta é a primeira visualização que você terá ao entrar no Portal de Compras. Reunimos aqui de forma simples e objetiva as informações mais relevantes do sistema, de acordo com a movimentação e perfil de seu usuário. Perceba que na parte superior direita da tela existe um campo de busca: nele é possível buscar qualquer informação digitando somente uma palavra ou frase. Dependendo do filtro digitado, o sistema mostrará diretamente a informação ou uma lista de registros encontrados. Abuse desta funcionalidade! Nós a desenvolvemos para agilizar a busca de informações dos nossos usuários!"
-        item_2: "Dashboard"
+        item_2: "Dashboard (Paindel de Controle)"
         item_3: "<a href='orcamentos#index' target='blank'>Orçamentos</a>"
         item_4: "<a href='orcamentos#notas_fiscais' target='blank'>Aguardando Notas Fiscais</a>"
         item_5: "<a href='http://www.cloudmed.io' target='blank'>CloudMed site</a>"

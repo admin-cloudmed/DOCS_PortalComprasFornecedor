@@ -1,11 +1,21 @@
 <center>
-   <h1><%= I18n.t("understanding_the_system.index.title") %></h1>
+	<!--<h1>
+		<%= I18n.t("understanding_the_system.index.title") %>
+	</h1>-->
+	<h1 id="welcome_inner">
+		<%= I18n.t("understanding_the_system.index.table_of_contents.welcome") %>
+	</h1>
+
 </center>
-<p class="more-info"><%= I18n.t("general.updated_at", :date => "15/07/2013") %></p>
+<p class="more-info">
+	<%= I18n.t("general.updated_at", :date => "27/07/2015") %>
+</p>
+
+
+
+<!--Indice-->
+<!--
 <h3><%= I18n.t("general.index") %></h3>
-
-
-<!--Indice -->
 <div class="metro-surface">
    <center>
       <table>
@@ -38,424 +48,445 @@
       </table>
    </center>
 </div>
-
+-->
 
 <!--Bem Vindo -->
 <div id ="welcome" > &nbsp </div>
-<center>
+<!--<center>
    <h2 id="welcome"><%= I18n.t("understanding_the_system.index.table_of_contents.welcome") %></h2>
-</center>
+</center>-->
 <div class="row-fluid">
-   <p style="text-indent: 3em; text-align: justify;"><%= I18n.t("understanding_the_system.index.welcome.item_1") %></p>
+	<p style="text-indent: 3em; text-align: justify;">
+		<%= I18n.t("understanding_the_system.index.welcome.item_1") %>
+	</p>
 </div>
 
 
 <!--Fluxograma -->
 <div id ="fluxograma" > &nbsp </div>
-<h2 id="fluxograma_inner"><%= I18n.t("understanding_the_system.index.table_of_contents.fluxograma") %></h2>
-<div class="row-fluid"><div class="metro-surface">
-      <table>
-         <tr>
-            <td>
-               <div style="width:356px;"></div>
-            </td>
-            <td>
-               <a href="/pt-BR/solicitar_opme#solicitar_opme">
-                  <div class="metro-tile-fluxo ">Novo Orçamento</div>
-               </a>
-            </td>
-         </tr>
-      </table>
-      <table>
-         <tr>
-            <td>
-               <div style="width:415px;"></div>
-            </td>
-            <td>
-               <div  style="background-color:transparent;border-color:transparent;">
-                  <image src="/img/fluxograma/arrow_sans_down.png"  />
-               </div>
-            </td>
-         </tr>
-      </table>
-      <table>
-         <tr>
-            <td>
-               <div style="width:138px;"></div>
-            </td>
-            <td>
-                <a href="/pt-BR/orcamentos#pendentes_fornecedor">
-					<div class="metro-tile-fluxo  metro-tile-red" > Pendente Fornecedor</div>
-                </a>
-            </td>
-            <td>
-               <div  style="background-color:transparent;border-color:transparent;">
-                  <image src="/img/fluxograma/arrow_sans_left.png"  />
-               </div>
-            </td>
-            <td>
-               <a href="/pt-BR/orcamentos#abertos">
-                  <div class="metro-tile-fluxo  metro-tile-green">Aberto</div>
-               </a>
-            </td>
-         </tr>
-      </table>
-      <table>
-         <tr>
-            <td>
-               <div style="width:310px;"></div>
-            </td>
-            <td>
-               <div  style="background-color:transparent;border-color:transparent;">
-                  <image src="/img/fluxograma/arrow_sans_rightdown.png"  />
-               </div>
-            </td>
-            <td>
-               <div style="width:50px;"></div>
-            </td>
-            <td>
-               <div  style="background-color:transparent;border-color:transparent;">
-                  <image src="/img/fluxograma/arrow_sans_down.png"  />
-               </div>
-            </td>
-         </tr>
-      </table>
-      <table>
-         <tr>
-            <td>
-               <div style="width:358px;"></div>
-            </td>
-            <td>
-               <a href="/pt-BR/orcamentos#auditor">
-                  <div class="metro-tile-fluxo  metro-tile-green">Pendente Auditor</div>
-               </a>
-            </td>
-            <td>
-               <div  style="background-color:transparent;border-color:transparent;">
-                  <image src="/img/fluxograma/arrow_sans_right.png"  />
-               </div>
-            </td>
-            <td>
-               <a href="/pt-BR/orcamentos#nao_aprovado">
-               <div class="metro-tile-fluxo   metro-tile-orange" > Não Aprovado</div>
-               </a>
-            </td>
-         </tr>
-      </table>
-      <table>
-         <tr>
-            <td>
-               <div style="width:415px;"></div>
-            </td>
-            <td>
-               <div  style="background-color:transparent;border-color:transparent;">
-                  <image src="/img/fluxograma/arrow_sans_down.png"  />
-               </div>
-            </td>
-         </tr>
-      </table>
-      <table>
-         <tr>
-            <td>
-               <div style="width:138px;"></div>
-            </td>
-            <td>
-               <a href="/pt-BR/acoes_disponiveis#agendar_fornecedor">
-               <div class="metro-tile-fluxo   metro-tile-orange" > Agendar com Fornecedor</div>
-               </a>
-            </td>
-            <td>
-               <div  style="background-color:transparent;border-color:transparent;">
-                  <image src="/img/fluxograma/arrow_sans_left.png"  />
-               </div>
-            </td>
-            <td>
-               <a href="orcamentos#local_atendimento">
-                  <div class="metro-tile-fluxo   metro-tile-green ">Pendente Hospital</div>
-               </a>
-            </td>
-            <td>
-               <div  style="background-color:transparent;border-color:transparent;">
-                  <image src="/img/fluxograma/arrow_sans_right.png"  />
-               </div>
-            </td>
-            <td>
-               <a href="orcamentos#divergencias_fornecedor">
-               <div class="metro-tile-fluxo metro-tile-red" > Divergencia Pendente com o Fornecedor</div>
-               </a>
-            </td>
-         </tr>
-      </table>
-      <table>
-         <tr>
-            <td>
-               <div style="width:415px;"></div>
-            </td>
-            <td>
-               <div  style="background-color:transparent;border-color:transparent;margin-bottom:-190px;">
-                  <image src="/img/fluxograma/arrow_sans_vertical.png"  />
-               </div>
-            </td>
-            <td>
-               <div style="width:60px;"></div>
-            </td>
-            <td>
-               <div  style="background-color:transparent;border-color:transparent;">
-                  <image src="/img/fluxograma/arrow_sans_rightdown.png"  />
-               </div>
-            </td>
-            <td>
-               <div style="width:35px;"></div>
-            </td>
-            <td>
-               <div  style="background-color:transparent;border-color:transparent;">
-                  <image src="/img/fluxograma/arrow_sans_down.png"  />
-               </div>
-            </td>
-         </tr>
-      </table>
-      <table>
-         <tr>
-            <td>
-               <div style="width:415px;"></div>
-            </td>
-            <td>
-               <div  style="background-color:transparent;border-color:transparent;margin-bottom:-30px;">
-                  <image src="/img/fluxograma/arrow_sans_vertical.png"  />
-               </div>
-            </td>
-            <td>
-               <div style="width:110px;"></div>
-            </td>
-            <td>
-               <a href="orcamentos#divergencias">
-               <div class="metro-tile-fluxo metro-tile-red" > Divergencia</div>
-			   </a>
-            </td>
-         </tr>
-      </table>
-      <table>
-         <tr>
-            <td>
-               <div style="width:415px;"></div>
-            </td>
-            <td>
-               <div  style="background-color:transparent;border-color:transparent;margin-top:-15px;">
-                  <image src="/img/fluxograma/arrow_sans_down.png"  />
-               </div>
-            </td>
-            <td>
-               <div style="width:60px;"></div>
-            </td>
-            <td>
-               <div  style="background-color:transparent;border-color:transparent;">
-                  <image src="/img/fluxograma/arrow_sans_leftdown.png"  />
-               </div>
-            </td>
-         </tr>
-      </table>
-      <table>
-         <tr>
-            <td>
-               <div style="width:358px;"></div>
-            </td>
-            <td>
-                <a href="orcamentos#concluidos">
-					<div class="metro-tile-fluxo metro-tile-green" >Concluído</div>
-				</a>
-			</td>
-         </tr>
-      </table>
-      <table>
-         <tr>
-            <td>
-               <div style="width:415px;"></div>
-            </td>
-            <td>
-               <div  style="background-color:transparent;border-color:transparent;">
-                  <image src="/img/fluxograma/arrow_sans_down.png"  />
-               </div>
-            </td>
-         </tr>
-      </table>
-      <table>
-         <tr>
-            <td>
-               <div style="width:358px;"></div>
-            </td>
-            <td>
-               <a href="acoes_disponiveis#enviar_faturamento">
-               <div class="metro-tile-fluxo  metro-tile-orange" > Enviar P/ Faturamento</div>
-			   </a>
-            </td>
-         </tr>
-      </table>
-      <table>
-         <tr>
-            <td>
-               <div style="width:415px;"></div>
-            </td>
-            <td>
-               <div  style="background-color:transparent;border-color:transparent;">
-                  <image src="/img/fluxograma/arrow_sans_down.png"  />
-               </div>
-            </td>
-         </tr>
-      </table>
-      <table>
-         <tr>
-            <td>
-               <div style="width:140px;"></div>
-            </td>
-            <td>
-               <a href="orcamentos#rep_titulo">
-				   <div class="metro-tile-fluxo   metro-tile-green" > Aguardando Reprocessamento do Título</div>
-			   </a>
-            </td>
-            <td>
-               <div  style="background-color:transparent;border-color:transparent;">
-                  <image src="/img/fluxograma/arrow_sans_left.png"  />
-               </div>
-            </td>
-            <td>
-               <a href="orcamentos#notas_fiscais">
-				 <div class="metro-tile-fluxo  metro-tile-green" > Aguardando Notas Fiscais</div>
-			   </a>
-            </td>
-            <td>
-               <div  style="background-color:transparent;border-color:transparent;">
-                  <image src="/img/fluxograma/arrow_sans_right.png"  />
-               </div>
-            </td>
-            <td>
-               <a href="orcamentos#conf_faturamento">
-					<div class="metro-tile-fluxo   metro-tile-green" > Aguardando Confirmação de Faturamento</div>
-			   </a>
-            </td>
-         </tr>
-      </table>
-      <table>
-         <tr>
-            <td>
-               <div style="width:200px;"></div>
-            </td>
-            <td>
-               <div  style="background-color:transparent;border-color:transparent;">
-                  <image src="/img/fluxograma/arrow_sans_down.png"  />
-               </div>
-            </td>
-            <td>
-               <div style="width:58px;"></div>
-            </td>
-            <td>
-               <div  style="background-color:transparent;border-color:transparent;">
-                  <image src="/img/fluxograma/arrow_sans_leftdown.png"  />
-               </div>
-            </td>
-            <td>
-               <div style="width:51px;"></div>
-            </td>
-            <td>
-               <div  style="background-color:transparent;border-color:transparent;margin-bottom:-170px">
-                  <image src="/img/fluxograma/arrow_sans_vertical.png"  />
-               </div>
-            </td>
-            <td>
-               <div style="width:170px;"></div>
-            </td>
-            <td>
-               <div  style="background-color:transparent;border-color:transparent;">
-                  <image src="/img/fluxograma/arrow_sans_down.png"  />
-               </div>
-            </td>
-         </tr>
-      </table>
-      <table>
-         <tr>
-            <td>
-               <div style="width:138px;"></div>
-            </td>
-            <td>
-               <a href="orcamentos#nf_recebida">
-               <div class="metro-tile-fluxo " > Nota Fiscal Recebida</div>
-			   </a>
-            </td>
-            <td>
-               <div style="width:105px;"></div>
-            </td>
-            <td>
-               <div  style="background-color:transparent;border-color:transparent;margin-bottom:-35px;">
-                  <image src="/img/fluxograma/arrow_sans_vertical.png"  />
-               </div>
-            </td>
-            <td>
-               <div style="width:110px;"></div>
-            </td>
-            <td>
-               <a href="acoes_disponiveis#confirmar_faturamento">
-               <div class="metro-tile-fluxo metro-tile-orange" >Confirmar Faturamento </div>
-			   </a>
-            </td>
-         </tr>
-      </table>
-      <table>
-         <tr>
-            <td>
-               <div style="width:413px;"></div>
-            </td>
-            <td>
-               <div  style="background-color:transparent;border-color:transparent;margin-top:-15px;">
-                  <image src="/img/fluxograma/arrow_sans_down.png"  />
-               </div>
-            </td>
-            <td>
-               <div style="width:60px;"></div>
-            </td>
-            <td>
-               <div  style="background-color:transparent;border-color:transparent;">
-                  <image src="/img/fluxograma/arrow_sans_leftdown.png"  />
-               </div>
-            </td>
-         </tr>
-      </table>
-      <table>
-         <tr>
-            <td>
-               <div style="width:360px;"></div>
-            </td>
-            <td>
-               <a href="orcamentos#faturados">
-					<div class="metro-tile-fluxo " >Faturado </div>
-			   </a>
-            </td>
-         </tr>
-      </table>
-   </div>
+<h2 id="fluxograma_inner">
+	<%= I18n.t("understanding_the_system.index.table_of_contents.fluxograma") %>
+</h2>
+<div class="row-fluid">
+	<div class="metro-surface">
+		<table>
+			<tr>
+				<td>
+					<div style="width:356px;"></div>
+				</td>
+				<td>
+					<a href="/pt-BR/solicitar_opme#solicitar_opme">
+						<div class="metro-tile-fluxo ">Novo Orçamento</div>
+					</a>
+				</td>
+			</tr>
+		</table>
+		<table>
+			<tr>
+				<td>
+					<div style="width:415px;"></div>
+				</td>
+				<td>
+					<div  style="background-color:transparent;border-color:transparent;">
+						<image src="/img/fluxograma/arrow_sans_down.png"  />
+					</div>
+				</td>
+			</tr>
+		</table>
+		<table>
+			<tr>
+				<td>
+					<div style="width:138px;"></div>
+				</td>
+				<td>
+					<a href="/pt-BR/orcamentos#pendentes_fornecedor">
+						<div class="metro-tile-fluxo  metro-tile-red" > Pendente Fornecedor</div>
+					</a>
+				</td>
+				<td>
+					<div  style="background-color:transparent;border-color:transparent;">
+						<image src="/img/fluxograma/arrow_sans_left.png"  />
+					</div>
+				</td>
+				<td>
+					<a href="/pt-BR/orcamentos#abertos">
+						<div class="metro-tile-fluxo  metro-tile-green">Aberto</div>
+					</a>
+				</td>
+			</tr>
+		</table>
+		<table>
+			<tr>
+				<td>
+					<div style="width:310px;"></div>
+				</td>
+				<td>
+					<div  style="background-color:transparent;border-color:transparent;">
+						<image src="/img/fluxograma/arrow_sans_rightdown.png"  />
+					</div>
+				</td>
+				<td>
+					<div style="width:50px;"></div>
+				</td>
+				<td>
+					<div  style="background-color:transparent;border-color:transparent;">
+						<image src="/img/fluxograma/arrow_sans_down.png"  />
+					</div>
+				</td>
+			</tr>
+		</table>
+		<table>
+			<tr>
+				<td>
+					<div style="width:358px;"></div>
+				</td>
+				<td>
+					<a href="/pt-BR/orcamentos#auditor">
+						<div class="metro-tile-fluxo  metro-tile-green">Pendente Auditor</div>
+					</a>
+				</td>
+				<td>
+					<div  style="background-color:transparent;border-color:transparent;">
+						<image src="/img/fluxograma/arrow_sans_right.png"  />
+					</div>
+				</td>
+				<td>
+					<a href="/pt-BR/orcamentos#nao_aprovado">
+						<div class="metro-tile-fluxo   metro-tile-orange" > Não Aprovado</div>
+					</a>
+				</td>
+			</tr>
+		</table>
+		<table>
+			<tr>
+				<td>
+					<div style="width:415px;"></div>
+				</td>
+				<td>
+					<div  style="background-color:transparent;border-color:transparent;">
+						<image src="/img/fluxograma/arrow_sans_down.png"  />
+					</div>
+				</td>
+			</tr>
+		</table>
+		<table>
+			<tr>
+				<td>
+					<div style="width:138px;"></div>
+				</td>
+				<td>
+					<a href="/pt-BR/acoes_disponiveis#agendar_fornecedor">
+						<div class="metro-tile-fluxo   metro-tile-orange" > Agendar com Fornecedor</div>
+					</a>
+				</td>
+				<td>
+					<div  style="background-color:transparent;border-color:transparent;">
+						<image src="/img/fluxograma/arrow_sans_left.png"  />
+					</div>
+				</td>
+				<td>
+					<a href="orcamentos#local_atendimento">
+						<div class="metro-tile-fluxo   metro-tile-green ">Pendente Hospital</div>
+					</a>
+				</td>
+				<td>
+					<div  style="background-color:transparent;border-color:transparent;">
+						<image src="/img/fluxograma/arrow_sans_right.png"  />
+					</div>
+				</td>
+				<td>
+					<a href="orcamentos#divergencias_fornecedor">
+						<div class="metro-tile-fluxo metro-tile-red" > Divergencia Pendente com o Fornecedor</div>
+					</a>
+				</td>
+			</tr>
+		</table>
+		<table>
+			<tr>
+				<td>
+					<div style="width:415px;"></div>
+				</td>
+				<td>
+					<div  style="background-color:transparent;border-color:transparent;margin-bottom:-190px;">
+						<image src="/img/fluxograma/arrow_sans_vertical.png"  />
+					</div>
+				</td>
+				<td>
+					<div style="width:60px;"></div>
+				</td>
+				<td>
+					<div  style="background-color:transparent;border-color:transparent;">
+						<image src="/img/fluxograma/arrow_sans_rightdown.png"  />
+					</div>
+				</td>
+				<td>
+					<div style="width:35px;"></div>
+				</td>
+				<td>
+					<div  style="background-color:transparent;border-color:transparent;">
+						<image src="/img/fluxograma/arrow_sans_down.png"  />
+					</div>
+				</td>
+			</tr>
+		</table>
+		<table>
+			<tr>
+				<td>
+					<div style="width:415px;"></div>
+				</td>
+				<td>
+					<div  style="background-color:transparent;border-color:transparent;margin-bottom:-30px;">
+						<image src="/img/fluxograma/arrow_sans_vertical.png"  />
+					</div>
+				</td>
+				<td>
+					<div style="width:110px;"></div>
+				</td>
+				<td>
+					<a href="orcamentos#divergencias">
+						<div class="metro-tile-fluxo metro-tile-red" > Divergencia</div>
+					</a>
+				</td>
+			</tr>
+		</table>
+		<table>
+			<tr>
+				<td>
+					<div style="width:415px;"></div>
+				</td>
+				<td>
+					<div  style="background-color:transparent;border-color:transparent;margin-top:-15px;">
+						<image src="/img/fluxograma/arrow_sans_down.png"  />
+					</div>
+				</td>
+				<td>
+					<div style="width:60px;"></div>
+				</td>
+				<td>
+					<div  style="background-color:transparent;border-color:transparent;">
+						<image src="/img/fluxograma/arrow_sans_leftdown.png"  />
+					</div>
+				</td>
+			</tr>
+		</table>
+		<table>
+			<tr>
+				<td>
+					<div style="width:358px;"></div>
+				</td>
+				<td>
+					<a href="orcamentos#concluidos">
+						<div class="metro-tile-fluxo metro-tile-green" >Concluído</div>
+					</a>
+				</td>
+			</tr>
+		</table>
+		<table>
+			<tr>
+				<td>
+					<div style="width:415px;"></div>
+				</td>
+				<td>
+					<div  style="background-color:transparent;border-color:transparent;">
+						<image src="/img/fluxograma/arrow_sans_down.png"  />
+					</div>
+				</td>
+			</tr>
+		</table>
+		<table>
+			<tr>
+				<td>
+					<div style="width:358px;"></div>
+				</td>
+				<td>
+					<a href="acoes_disponiveis#enviar_faturamento">
+						<div class="metro-tile-fluxo  metro-tile-orange" > Enviar P/ Faturamento</div>
+					</a>
+				</td>
+			</tr>
+		</table>
+		<table>
+			<tr>
+				<td>
+					<div style="width:415px;"></div>
+				</td>
+				<td>
+					<div  style="background-color:transparent;border-color:transparent;">
+						<image src="/img/fluxograma/arrow_sans_down.png"  />
+					</div>
+				</td>
+			</tr>
+		</table>
+		<table>
+			<tr>
+				<td>
+					<div style="width:140px;"></div>
+				</td>
+				<td>
+					<a href="orcamentos#rep_titulo">
+						<div class="metro-tile-fluxo   metro-tile-green" > Aguardando Reprocessamento do Título</div>
+					</a>
+				</td>
+				<td>
+					<div  style="background-color:transparent;border-color:transparent;">
+						<image src="/img/fluxograma/arrow_sans_left.png"  />
+					</div>
+				</td>
+				<td>
+					<a href="orcamentos#notas_fiscais">
+						<div class="metro-tile-fluxo  metro-tile-green" > Aguardando Notas Fiscais</div>
+					</a>
+				</td>
+				<td>
+					<div  style="background-color:transparent;border-color:transparent;">
+						<image src="/img/fluxograma/arrow_sans_right.png"  />
+					</div>
+				</td>
+				<td>
+					<a href="orcamentos#conf_faturamento">
+						<div class="metro-tile-fluxo   metro-tile-green" > Aguardando Confirmação de Faturamento</div>
+					</a>
+				</td>
+			</tr>
+		</table>
+		<table>
+			<tr>
+				<td>
+					<div style="width:200px;"></div>
+				</td>
+				<td>
+					<div  style="background-color:transparent;border-color:transparent;">
+						<image src="/img/fluxograma/arrow_sans_down.png"  />
+					</div>
+				</td>
+				<td>
+					<div style="width:58px;"></div>
+				</td>
+				<td>
+					<div  style="background-color:transparent;border-color:transparent;">
+						<image src="/img/fluxograma/arrow_sans_leftdown.png"  />
+					</div>
+				</td>
+				<td>
+					<div style="width:51px;"></div>
+				</td>
+				<td>
+					<div  style="background-color:transparent;border-color:transparent;margin-bottom:-170px">
+						<image src="/img/fluxograma/arrow_sans_vertical.png"  />
+					</div>
+				</td>
+				<td>
+					<div style="width:170px;"></div>
+				</td>
+				<td>
+					<div  style="background-color:transparent;border-color:transparent;">
+						<image src="/img/fluxograma/arrow_sans_down.png"  />
+					</div>
+				</td>
+			</tr>
+		</table>
+		<table>
+			<tr>
+				<td>
+					<div style="width:138px;"></div>
+				</td>
+				<td>
+					<a href="orcamentos#nf_recebida">
+						<div class="metro-tile-fluxo " > Nota Fiscal Recebida</div>
+					</a>
+				</td>
+				<td>
+					<div style="width:105px;"></div>
+				</td>
+				<td>
+					<div  style="background-color:transparent;border-color:transparent;margin-bottom:-35px;">
+						<image src="/img/fluxograma/arrow_sans_vertical.png"  />
+					</div>
+				</td>
+				<td>
+					<div style="width:110px;"></div>
+				</td>
+				<td>
+					<a href="acoes_disponiveis#confirmar_faturamento">
+						<div class="metro-tile-fluxo metro-tile-orange" >Confirmar Faturamento </div>
+					</a>
+				</td>
+			</tr>
+		</table>
+		<table>
+			<tr>
+				<td>
+					<div style="width:413px;"></div>
+				</td>
+				<td>
+					<div  style="background-color:transparent;border-color:transparent;margin-top:-15px;">
+						<image src="/img/fluxograma/arrow_sans_down.png"  />
+					</div>
+				</td>
+				<td>
+					<div style="width:60px;"></div>
+				</td>
+				<td>
+					<div  style="background-color:transparent;border-color:transparent;">
+						<image src="/img/fluxograma/arrow_sans_leftdown.png"  />
+					</div>
+				</td>
+			</tr>
+		</table>
+		<table>
+			<tr>
+				<td>
+					<div style="width:360px;"></div>
+				</td>
+				<td>
+					<a href="orcamentos#faturados">
+						<div class="metro-tile-fluxo " >Faturado </div>
+					</a>
+				</td>
+			</tr>
+		</table>
+	</div>
 </div>
 
 
 <!--Dashboard -->
 <div id ="dashboard" > &nbsp </div>
-<h2 id="dashboard_inner"><%= I18n.t("understanding_the_system.index.table_of_contents.dashboard") %></h2>
+<h2 id="dashboard_inner">
+	<%= I18n.t("understanding_the_system.index.table_of_contents.dashboard") %>
+</h2>
 <div class="row-fluid">
-   <p style="text-indent: 3em; text-align: justify;"><%= I18n.t("understanding_the_system.index.dashboard.item_1") %></p>
-   <img  src="/img/understanding_the_system/Dashboard.png" />
-   <p align="right" style="font-weight:bold;"><%= I18n.t("understanding_the_system.index.dashboard.item_2") %></p>
+	<p style="text-indent: 3em; text-align: justify;">
+		<%= I18n.t("understanding_the_system.index.dashboard.item_1") %>
+	</p>
+	<img  src="/img/understanding_the_system/Dashboard.png" />
+	<p align="right" style="font-weight:bold;">
+		<%= I18n.t("understanding_the_system.index.dashboard.item_2") %>
+	</p>
 </div>
 
 
 <!--Mural -->
 <div id ="mural" > &nbsp </div>
-<h2 id="mural_inner"><%= I18n.t("understanding_the_system.index.table_of_contents.mural") %></h2>
+<h2 id="mural_inner">
+	<%= I18n.t("understanding_the_system.index.table_of_contents.mural") %>
+</h2>
 <div class="row-fluid">
-   <p style="text-indent: 3em; text-align: justify;"><%= I18n.t("understanding_the_system.index.mural.item_1") %></p>
-   <img  src="/img/understanding_the_system/portal_mural.png" />
-   <p align="right" style="font-weight:bold;"><%= I18n.t("understanding_the_system.index.mural.item_2") %></p>
+	<p style="text-indent: 3em; text-align: justify;">
+		<%= I18n.t("understanding_the_system.index.mural.item_1") %>
+	</p>
+	<img  src="/img/understanding_the_system/portal_mural.png" />
+	<p align="right" style="font-weight:bold;">
+		<%= I18n.t("understanding_the_system.index.mural.item_2") %>
+	</p>
 </div>
 
 
 <!--Botões -->
 <ul class="pager">
-   <li class="previous"><%= link_to("&larr; " + I18n.t("portalopme.index.title"), "portalopme") %></li>
-   <li class="next"><%= link_to(I18n.t("menu_principal.index.title")+ " &rarr;", "menu_principal") %></li>
+	<li class="previous">
+		<%= link_to("&larr; " + I18n.t("portalopme.index.title"), "portalopme") %>
+	</li>
+	<li class="next">
+		<%= link_to(I18n.t("menu_principal.index.title")+ " &rarr;", "menu_principal") %>
+	</li>
 </ul>
